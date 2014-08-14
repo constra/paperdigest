@@ -1,0 +1,349 @@
+\begin{thebibliography}{48}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Albert et~al.(2002)Albert, Hanzawa, Legtenberg, de~Ruwe, van~den
+  Heuvel, Collart, Boelens, and Timmers]{Albert2002}
+Thomas~K. Albert, Hiroyuki Hanzawa, Yvonne~I.A. Legtenberg, Marjolein~J.
+  de~Ruwe, Fiona~A.J. van~den Heuvel, Martine~A. Collart, Rolf Boelens, and
+  H.Th.Marc Timmers.
+\newblock Identification of a ubiquitin-protein ligase subunit within the
+  ccr4-not transcription repressor complex.
+\newblock \emph{EMBO J}, 21\penalty0 (3):\penalty0 355--364, February 2002.
+\newblock ISSN 0261-4189.
+
+\bibitem[Bai et~al.(1999)Bai, Salvadore, Chiang, Collart, Liu, and
+  Denis]{Bai1999}
+Yongli Bai, Christopher Salvadore, Yueh-Chin Chiang, Martine~A. Collart,
+  Hai-Yan Liu, and Clyde~L. Denis.
+\newblock The ccr4 and caf1 proteins of the ccr4-not complex are physically and
+  functionally separated from not2, not4, and not5.
+\newblock \emph{Mol Cell Biol}, 19\penalty0 (10):\penalty0 6642--6651, 1999.
+
+\bibitem[Ben-Aroya et~al.(2008)Ben-Aroya, Coombes, Kwok, O'Donnell, Boeke, and
+  Hieter]{Ben-Aroya2008}
+Shay Ben-Aroya, Candice Coombes, Teresa Kwok, Kathryn~A. O'Donnell, Jef~D.
+  Boeke, and Philip Hieter.
+\newblock Toward a comprehensive temperature-sensitive mutant repository of the
+  essential genes of \textit{Saccharomyces cerevisiae}.
+\newblock 30\penalty0 (2):\penalty0 248--258, 2008.
+
+\bibitem[Borja et~al.(2011)Borja, Piotukh, Freund, and Gross]{Borja2011}
+Mark~S. Borja, Kirill Piotukh, Christian Freund, and John~D. Gross.
+\newblock Dcp1 links coactivators of mrna decapping to dcp2 by proline
+  recognition.
+\newblock \emph{RNA}, 17\penalty0 (2):\penalty0 278--290, 2011.
+
+\bibitem[Caponigro and Parker(1995)]{Caponigro1995}
+G~Caponigro and R~Parker.
+\newblock Multiple functions for the poly({A})-binding protein in m{RNA}
+  decapping and deadenylation in yeast.
+\newblock \emph{Genes \& Development}, 9\penalty0 (19):\penalty0 2421--2432,
+  October 1995.
+
+\bibitem[Chen et~al.(2002)Chen, Chiang, and Denis]{Chen2002}
+J~Chen, YC~Chiang, and CL~Denis.
+\newblock Ccr4, a 3'-5' poly(a) rna and ssdna exonuclease, is the catalytic
+  component of the cytoplasmic deadenylase.
+\newblock \emph{EMBO J}, 21\penalty0 (6):\penalty0 1414--26--, March 2002.
+
+\bibitem[Collart(2003)]{Collart2003}
+Martine~A. Collart.
+\newblock Global control of gene expression in yeast by the ccr4-not complex.
+\newblock \emph{Gene}, 313:\penalty0 1--16, August 2003.
+\newblock ISSN 0378-1119.
+
+\bibitem[Coller et~al.(1998)Coller, Gray, and Wickens]{Coller1998}
+J.~M. Coller, N.~K. Gray, and M.~P. Wickens.
+\newblock m{RNA} stabilization by poly({A}) binding protein is independent of
+  poly({A}) and requires translation.
+\newblock \emph{Genes Dev}, 12\penalty0 (20):\penalty0 3226--3235, Oct 1998.
+
+\bibitem[Coller et~al.(2001)Coller, Tucker, Sheth, Valencia-Sanchez, and
+  Parker]{Coller2001}
+J.~M. Coller, M.~Tucker, U.~Sheth, M.~A. Valencia-Sanchez, and R.~Parker.
+\newblock The dead box helicase, dhh1p, functions in m{RNA} decapping and
+  interacts with both the decapping and deadenylase complexes.
+\newblock \emph{RNA}, 7\penalty0 (12):\penalty0 1717--1727, Dec 2001.
+
+\bibitem[Coller and Parker(2004)]{Coller2004}
+Jeff Coller and Roy Parker.
+\newblock Eukaryotic m{RNA} decapping.
+\newblock \emph{Annu Rev Biochem}, 73\penalty0 (1):\penalty0 861--890, 2004.
+
+\bibitem[Coller and Parker(2005)]{Coller2005}
+Jeff Coller and Roy Parker.
+\newblock General translational repression by activators of m{RNA} decapping.
+\newblock \emph{Cell}, 122\penalty0 (6):\penalty0 875--886, Sep 2005.
+
+\bibitem[Decker and Parker(1993)]{Decker1993}
+C~J Decker and R~Parker.
+\newblock A turnover pathway for both stable and unstable m{RNA}s in yeast:
+  evidence for a requirement for deadenylation.
+\newblock \emph{Genes \& Development}, 7\penalty0 (8):\penalty0 1632--1643,
+  August 1993.
+
+\bibitem[Denis and Chen(2003)]{Denis2003}
+Clyde~L. Denis and Junji Chen.
+\newblock The ccr4-not complex plays diverse roles in mrna metabolism.
+\newblock Volume 73:\penalty0 221--250, 2003.
+\newblock ISSN 0079-6603.
+
+\bibitem[Dunckley et~al.(2001)Dunckley, Tucker, and Parker]{Dunckley2001}
+T.~Dunckley, M.~Tucker, and R.~Parker.
+\newblock Two related proteins, edc1p and edc2p, stimulate m{RNA} decapping in
+  \textit{Saccharomyces cerevisiae}.
+\newblock \emph{Genetics}, 157\penalty0 (1):\penalty0 27--37, 2001.
+
+\bibitem[Dunckley and Parker(1999)]{Dunckley1999}
+Travis Dunckley and Roy Parker.
+\newblock The {Dcp2} protein is required for m{RNA} decapping in
+  \textit{Saccharomyces cerevisiae} and contains a functional {MutT} motif.
+\newblock \emph{EMBO J}, 18\penalty0 (19):\penalty0 5411--5422, October 1999.
+\newblock ISSN 0261-4189.
+
+\bibitem[Fischer and Weis(2002)]{Fischer2002}
+Nicole Fischer and Karsten Weis.
+\newblock The dead box protein dhh1 stimulates the decapping enzyme dcp1.
+\newblock \emph{EMBO J}, 21\penalty0 (11):\penalty0 2788--2797, 2002.
+
+\bibitem[Franks and Lykke-Andersen(2008)]{Franks2008}
+Tobias~M. Franks and Jens Lykke-Andersen.
+\newblock The control of m{RNA} decapping and p-body formation.
+\newblock \emph{Mol Cell}, 32\penalty0 (5):\penalty0 605--615, 2008.
+
+\bibitem[Gerber et~al.(2004)Gerber, Herschlag, and Brown]{Gerber2004}
+André~P. Gerber, Daniel Herschlag, and Patrick~O. Brown.
+\newblock Extensive association of functionally and cytotopically related
+  m{RNA}s with puf family {RNA}-binding proteins in yeast.
+\newblock \emph{PLoS Biol}, 2\penalty0 (3):\penalty0 e79, 2004.
+
+\bibitem[Harel-Sharvit et~al.(2010)Harel-Sharvit, Eldad, Haimovich, Barkai,
+  Duek, and Choder]{Harel-Sharvit2010}
+Liat Harel-Sharvit, Naama Eldad, Gal Haimovich, Oren Barkai, Lea Duek, and
+  Mordechai Choder.
+\newblock {RNA} polymerase ii subunits link transcription and m{RNA} decay to
+  translation.
+\newblock \emph{Cell}, 143\penalty0 (4):\penalty0 552--563, November 2010.
+\newblock ISSN 0092-8674.
+
+\bibitem[Holstege et~al.(1998)Holstege, Jennings, Wyrick, Lee, Hengartner,
+  Green, Golub, Lander, and Young]{Holstege1998}
+Frank~C.P Holstege, Ezra~G Jennings, John~J Wyrick, Tong~Ihn Lee, Christoph~J
+  Hengartner, Michael~R Green, Todd~R Golub, Eric~S Lander, and Richard~A
+  Young.
+\newblock Dissecting the regulatory circuitry of a eukaryotic genome, November
+  1998.
+\newblock ISSN 0092-8674.
+
+\bibitem[Hook et~al.(2007)Hook, Goldstrohm, Seay, and Wickens]{Hook2007}
+Brad~A. Hook, Aaron~C. Goldstrohm, Daniel~J. Seay, and Marvin Wickens.
+\newblock Two yeast puf proteins negatively regulate a single mrna.
+\newblock \emph{J Biol Chem}, 282\penalty0 (21):\penalty0 15430--15438, 2007.
+
+\bibitem[Hsu and Stevens(1993)]{Hsu1993}
+C~L Hsu and A~Stevens.
+\newblock Yeast cells lacking 5' $\rightarrow$ 3' exoribonuclease 1 contain
+  m{RNA} species that are poly(a) deficient and partially lack the 5' cap
+  structure.
+\newblock \emph{Mol Cell Biol}, 13\penalty0 (8):\penalty0 4826--4835, 1993.
+
+\bibitem[Kruk et~al.(2011)Kruk, Dutta, Fu, Gilmour, and Reese]{Kruk2011}
+Jennifer~A. Kruk, Arnob Dutta, Jianhua Fu, David~S. Gilmour, and Joseph~C.
+  Reese.
+\newblock The multifunctional ccr4â€“not complex directly promotes
+  transcription elongation.
+\newblock \emph{Genes \& Development}, 25\penalty0 (6):\penalty0 581--593,
+  March 2011.
+
+\bibitem[LaGrandeur and Parker(1999)]{LaGrandeur1999}
+T.~LaGrandeur and R.~Parker.
+\newblock The cis acting sequences responsible for the differential decay of
+  the unstable mfa2 and stable pgk1 transcripts in yeast include the context of
+  the translational start codon.
+\newblock \emph{RNA}, 5\penalty0 (3):\penalty0 420--433, Mar 1999.
+
+\bibitem[Lebreton et~al.(2008)Lebreton, Tomecki, Dziembowski, and
+  Seraphin]{Lebreton2008}
+Alice Lebreton, Rafal Tomecki, Andrzej Dziembowski, and Bertrand Seraphin.
+\newblock Endonucleolytic {RNA} cleavage by a eukaryotic exosome.
+\newblock \emph{Nature}, 456\penalty0 (7224):\penalty0 993--996, 2008.
+
+\bibitem[Lenssen et~al.(2005)Lenssen, James, Pedruzzi, Dubouloz, Cameroni,
+  Bisig, Maillet, Werner, Roosen, Petrovic, Winderickx, Collart, and
+  De~Virgilio]{Lenssen2005}
+Eve Lenssen, Nicole James, Ivo Pedruzzi, Frederique Dubouloz, Elisabetta
+  Cameroni, Ruth Bisig, Laurent Maillet, Michel Werner, Johnny Roosen, Katarina
+  Petrovic, Joris Winderickx, Martine~A. Collart, and Claudio De~Virgilio.
+\newblock The ccr4-not complex independently controls both msn2-dependent
+  transcriptional activation--via a newly identified glc7/bud14 type i protein
+  phosphatase module--and tfiid promoter distribution.
+\newblock \emph{Mol Cell Biol}, 25\penalty0 (1):\penalty0 488--498, January
+  2005.
+
+\bibitem[Lenssen et~al.(2007)Lenssen, Azzouz, Michel, Landrieux, and
+  Collart]{Lenssen2007}
+Eve Lenssen, Nowel Azzouz, Agnes Michel, Emilie Landrieux, and Martine~A.
+  Collart.
+\newblock The ccr4-not complex regulates skn7 through srb10 kinase.
+\newblock \emph{Eukaryotic Cell}, 6\penalty0 (12):\penalty0 2251--2259,
+  December 2007.
+
+\bibitem[Liu et~al.(1998)Liu, Badarinarayana, Audino, Rappsilber, Mann, and
+  Denis]{Liu1998}
+Hai-Yan Liu, Vasudeo Badarinarayana, Deborah~C. Audino, Juri Rappsilber,
+  Matthias Mann, and Clyde~L. Denis.
+\newblock The not proteins are part of the ccr4 transcriptional complex and
+  affect gene expression both positively and negatively.
+\newblock \emph{EMBO J}, 17\penalty0 (4):\penalty0 1096--1106, February 1998.
+\newblock ISSN 0261-4189.
+
+\bibitem[Liu et~al.(2002)Liu, Rodgers, Jiao, and Kiledjian]{Liu2002}
+Hudan Liu, Nancy~D. Rodgers, Xinfu Jiao, and Megerditch Kiledjian.
+\newblock The scavenger m{RNA} decapping enzyme dcps is a member of the hit
+  family of pyrophosphatases.
+\newblock \emph{EMBO J}, 21\penalty0 (17):\penalty0 4699--4708, September 2002.
+\newblock ISSN 0261-4189.
+
+\bibitem[Maillet and Collart(2002)]{Maillet2002}
+Laurent Maillet and Martine~A. Collart.
+\newblock Interaction between not1p, a component of the ccr4-not complex, a
+  global regulator of transcription, and dhh1p, a putative rna helicase.
+\newblock \emph{J Biol Chem}, 277\penalty0 (4):\penalty0 2835--2842, January
+  2002.
+
+\bibitem[Meyer et~al.(2004)Meyer, Temme, and Wahle]{Meyer2004}
+Sylke Meyer, Claudia Temme, and Elmar Wahle.
+\newblock Messenger {RNA} turnover in eukaryotes: Pathways and enzymes.
+\newblock \emph{Critical Reviews in Biochemistry \& Molecular Biology},
+  39\penalty0 (4):\penalty0 197--216, 2004.
+
+\bibitem[Morrissey et~al.(1999)Morrissey, Deardorff, Hebron, and
+  Sachs]{Morrissey1999}
+John~P. Morrissey, Julie~A. Deardorff, Clarissa Hebron, and Alan~B. Sachs.
+\newblock Decapping of stabilized, polyadenylated m{RNA} in yeast pab1 mutants.
+\newblock \emph{Yeast}, 15\penalty0 (8):\penalty0 687--702, 1999.
+\newblock ISSN 1097-0061.
+
+\bibitem[Muhlrad et~al.(1994)Muhlrad, Decker, and Parker]{Muhlrad1994}
+D~Muhlrad, C~J Decker, and R~Parker.
+\newblock Deadenylation of the unstable m{RNA} encoded by the yeast mfa2 gene
+  leads to decapping followed by 5'$\rightarrow$3' digestion of the transcript.
+\newblock \emph{Genes \& Development}, 8\penalty0 (7):\penalty0 855--866, 1994.
+
+\bibitem[Nishimura et~al.(2009)Nishimura, Fukagawa, Takisawa, Kakimoto, and
+  Kanemaki]{Nishimura2009}
+Kohei Nishimura, Tatsuo Fukagawa, Haruhiko Takisawa, Tatsuo Kakimoto, and
+  Masato Kanemaki.
+\newblock An auxin-based degron system for the rapid depletion of proteins in
+  nonplant cells.
+\newblock \emph{Nat Meth}, advance online publication, 2009.
+
+\bibitem[Ohn et~al.(2007)Ohn, Chiang, Lee, Yao, Zhang, and Denis]{Ohn2007}
+Takbum Ohn, Yueh-Chin Chiang, Darren~J. Lee, Gang Yao, Chongxu Zhang, and
+  Clyde~L. Denis.
+\newblock Caf1 plays an important role in mrna deadenylation separate from its
+  contact to ccr4.
+\newblock \emph{Nucleic Acids Res}, 35\penalty0 (9):\penalty0 3002--3015, May
+  2007.
+
+\bibitem[Schwartz and Parker(1999)]{Schwartz1999}
+D.~C. Schwartz and R.~Parker.
+\newblock Mutations in translation initiation factors lead to increased rates
+  of deadenylation and decapping of m{RNA}s in \textit{Saccharomyces
+  cerevisiae}.
+\newblock \emph{Mol Cell Biol}, 19\penalty0 (8):\penalty0 5247--5256, Aug 1999.
+
+\bibitem[SCHWARTZ et~al.(2003)SCHWARTZ, DECKER, and PARKER]{SCHWARTZ2003}
+DAVID SCHWARTZ, CAROLYN~J. DECKER, and ROY PARKER.
+\newblock The enhancer of decapping proteins, edc1p and edc2p, bind rna and
+  stimulate the activity of the decapping enzyme.
+\newblock \emph{RNA}, 9\penalty0 (2):\penalty0 239--251, 2003.
+
+\bibitem[Sheth and Parker(2003)]{Sheth2003}
+Ujwal Sheth and Roy Parker.
+\newblock Decapping and decay of messenger {RNA} occur in cytoplasmic
+  processing bodies.
+\newblock \emph{Science}, 300\penalty0 (5620):\penalty0 805--808, May 2003.
+
+\bibitem[Solinger et~al.(1999)Solinger, Pascolini, and Heyer]{Solinger1999}
+Jachen~A. Solinger, Donatella Pascolini, and Wolf-Dietrich Heyer.
+\newblock Active-site mutations in the xrn1p exoribonuclease of saccharomyces
+  cerevisiae reveal a specific role in meiosis.
+\newblock \emph{Mol Cell Biol}, 19\penalty0 (9):\penalty0 5930--5942, 1999.
+
+\bibitem[Tucker et~al.(2001)Tucker, Valencia-Sanchez, Staples, Chen, Denis, and
+  Parker]{Tucker2001}
+Morgan Tucker, Marco~A. Valencia-Sanchez, Robin~R. Staples, Junji Chen,
+  Clyde~L. Denis, and Roy Parker.
+\newblock The transcription factor associated ccr4 and caf1 proteins are
+  components of the major cytoplasmic m{RNA} deadenylase in
+  \textit{Saccharomyces cerevisiae}.
+\newblock \emph{Cell}, 104\penalty0 (3):\penalty0 377--386, 2001.
+
+\bibitem[Tucker et~al.(2002)Tucker, Staples, Valencia-Sanchez, Muhlrad, and
+  Parker]{Tucker2002}
+Morgan Tucker, Robin~R Staples, Marco~A Valencia-Sanchez, Denise Muhlrad, and
+  Roy Parker.
+\newblock Ccr4p is the catalytic subunit of a {Ccr4p/Pop2p/Notp} m{RNA}
+  deadenylase complex in \textit{\textit{saccharomyces cerevisiae}}.
+\newblock \emph{EMBO J}, 21\penalty0 (6):\penalty0 1427--1436, Mar 2002.
+
+\bibitem[Valley et~al.(2012)Valley, Porter, Qiu, Campbell, Hall, and
+  Wickens]{Valley2012}
+Cary~T. Valley, Douglas~F. Porter, Chen Qiu, Zachary~T. Campbell, Traci
+  M.~Tanaka Hall, and Marvin Wickens.
+\newblock Patterns and plasticity in rna-protein interactions enable
+  recruitment of multiple proteins through a single site.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 109\penalty0
+  (16):\penalty0 6054--6059, 2012.
+
+\bibitem[van~de Peppel et~al.(2003)van~de Peppel, Kemmeren, van Bakel,
+  Radonjic, van Leenen, and Holstege]{Peppel2003}
+Jeroen van~de Peppel, Patrick Kemmeren, Harm van Bakel, Marijana Radonjic, Dik
+  van Leenen, and Frank C~P Holstege.
+\newblock Monitoring global messenger {RNA} changes in externally controlled
+  microarray experiments.
+\newblock \emph{EMBO Rep}, 4\penalty0 (4):\penalty0 387--393, Apr 2003.
+
+\bibitem[Van~Etten et~al.(2012)Van~Etten, Schagat, Hrit, Weidmann, Brumbaugh,
+  Coon, and Goldstrohm]{VanEtten2012}
+Jamie Van~Etten, Trista~L. Schagat, Joel Hrit, Chase Weidmann, Justin
+  Brumbaugh, Joshua~J. Coon, and Aaron~C. Goldstrohm.
+\newblock Human pumilio proteins recruit multiple deadenylases to efficiently
+  repress messenger rnas.
+\newblock \emph{Journal of Biological Chemistry}, 2012.
+
+\bibitem[Viswanathan et~al.(2004)Viswanathan, Ohn, Chiang, Chen, and
+  Denis]{Viswanathan2004}
+Palaniswamy Viswanathan, Takbum Ohn, Yueh-Chin Chiang, Junji Chen, and Clyde~L.
+  Denis.
+\newblock Mouse caf1 can function as a processive deadenylase3' to
+  5'-exonuclease in vitro but in yeast the deadenylase function of caf1 is not
+  required for mrna poly(a) removal.
+\newblock \emph{J Biol Chem}, 279\penalty0 (23):\penalty0 23988--23995, 2004.
+
+\bibitem[Wang et~al.(2002)Wang, Liu, Storey, Tibshirani, Herschlag, and
+  Brown]{Wang2002}
+Yulei Wang, Chih~Long Liu, John~D. Storey, Robert~J. Tibshirani, Daniel
+  Herschlag, and Patrick~O. Brown.
+\newblock Precision and functional specificity in m{RNA} decay.
+\newblock \emph{Proc Natl Acad Sci U S A}, 99\penalty0 (9):\penalty0
+  5860--5865, 2002.
+
+\bibitem[Wang and Kiledjian(2001)]{Wang2001}
+Zuoren Wang and Megerditch Kiledjian.
+\newblock Functional link between the mammalian exosome and m{RNA} decapping.
+\newblock \emph{Cell}, 107\penalty0 (6):\penalty0 751--762, December 2001.
+\newblock ISSN 0092-8674.
+
+\bibitem[Wickens et~al.(2002)Wickens, Bernstein, Kimble, and
+  Parker]{Wickens2002}
+Marvin Wickens, David~S. Bernstein, Judith Kimble, and Roy Parker.
+\newblock A puf family portrait: 3'{UTR} regulation as a way of life.
+\newblock \emph{Trends Genet}, 18\penalty0 (3):\penalty0 150--157, 2002.
+
+\end{thebibliography}

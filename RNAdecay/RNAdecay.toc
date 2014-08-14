@@ -1,0 +1,72 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Overview}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}The different pathways in RNA degradation}{4}{subsection.1.1}
+\contentsline {paragraph}{}{4}{section*.2}
+\contentsline {paragraph}{Degradation and translation are in competition}{4}{section*.3}
+\contentsline {paragraph}{Deadenylation leads to 5' $ \rightarrow $ 3' degradation}{4}{section*.4}
+\contentsline {paragraph}{Quality control pathways}{5}{section*.5}
+\contentsline {section}{\numberline {2}Deadenylation machinery and regulation}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Poly(A) binding protein Pab1p}{5}{subsection.2.1}
+\contentsline {paragraph}{Pab1p functions as negative regulator of RNA decay}{5}{section*.6}
+\contentsline {subsection}{\numberline {2.2}Ccr4-Not complex}{5}{subsection.2.2}
+\contentsline {paragraph}{General about Ccr4-Not complex}{5}{section*.7}
+\contentsline {paragraph}{Ccr4p}{5}{section*.8}
+\contentsline {paragraph}{Pop2p/Caf1p}{6}{section*.9}
+\contentsline {subsection}{\numberline {2.3}Pan2p/Pan3p exonuclease represents as second mRNA deadanylase}{6}{subsection.2.3}
+\contentsline {section}{\numberline {3}Decapping machinery and its regulation}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Dcp1p and Dcp2p}{6}{subsection.3.1}
+\contentsline {paragraph}{}{6}{section*.10}
+\contentsline {subsection}{\numberline {3.2}The scavenger decapping enzyme DcpS}{6}{subsection.3.2}
+\contentsline {paragraph}{}{6}{section*.11}
+\contentsline {subsection}{\numberline {3.3}The regulator of decapping}{7}{subsection.3.3}
+\contentsline {paragraph}{}{7}{section*.12}
+\contentsline {paragraph}{Dhh1p}{7}{section*.13}
+\contentsline {paragraph}{Pat1p}{7}{section*.14}
+\contentsline {paragraph}{Edcs}{8}{section*.15}
+\contentsline {section}{\numberline {4}5'$\rightarrow $3' degradation}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Xrn1 and decapping dependent 5'$ \rightarrow $3' degradation}{8}{subsection.4.1}
+\contentsline {paragraph}{}{8}{section*.16}
+\contentsline {section}{\numberline {5}The synthesis decay cross-talk}{8}{section.5}
+\contentsline {subsection}{\numberline {5.1}Cross-talk between RNA decay and translation}{8}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}P-body formation}{8}{subsection.5.2}
+\contentsline {paragraph}{Decapping occurs in P-body}{8}{section*.17}
+\contentsline {subsection}{\numberline {5.3}Cross-talk between RNA decay and transcription}{9}{subsection.5.3}
+\contentsline {paragraph}{The role of Rpb4/7 in mRNA decay and translation}{9}{section*.18}
+\contentsline {section}{\numberline {6}3' $\rightarrow $5' degradation}{9}{section.6}
+\contentsline {subsection}{\numberline {6.1}The cytoplasmic exosome complex and its regulation}{9}{subsection.6.1}
+\contentsline {paragraph}{General introduction}{9}{section*.19}
+\contentsline {subsection}{\numberline {6.2}The nuclear exosome complex}{9}{subsection.6.2}
+\contentsline {paragraph}{The nuclear specific exosome subunit Rrp6p}{9}{section*.20}
+\contentsline {paragraph}{The exosome associated RNA binding protein Rrp47}{9}{section*.21}
+\contentsline {section}{\numberline {7}Regulation of the RNA stability by RNA binding proteins}{9}{section.7}
+\contentsline {subsection}{\numberline {7.1}the Puf family}{9}{subsection.7.1}
+\contentsline {paragraph}{Puf4p and Puf5p negatively regulate mRNA by recruiting Ccr4-Not complex}{9}{section*.22}
+\contentsline {paragraph}{Puf proteins bind RNA using a ``two-handed'' mode}{9}{section*.23}
+\contentsline {section}{\numberline {8}Concerning the method}{10}{section.8}
+\contentsline {subsection}{\numberline {8.1}Normalization with internal or external standard}{10}{subsection.8.1}
+\contentsline {paragraph}{Normalization with external standard}{10}{section*.24}
+\contentsline {section}{\numberline {A}Auxin-Degron strains}{11}{appendix.A}
+\contentsline {paragraph}{Positive control of this method}{11}{section*.25}
+\contentsline {subsection}{\numberline {A.1}The genes which are essential}{11}{subsection.A.1}
+\contentsline {section}{\numberline {B}YKO strains}{11}{appendix.B}
+\contentsline {subsection}{\numberline {B.1}Deadenylation\citep {Meyer2004}}{11}{subsection.B.1}
+\contentsline {subsubsection}{\numberline {B.1.1}Ccr4p/Pop2p/Notp complex}{11}{subsubsection.B.1.1}
+\contentsline {section}{\numberline {C}Genes involved in RNA turnover}{11}{appendix.C}
+\contentsline {subsection}{\numberline {C.1}Deadenylation\citep {Meyer2004}}{11}{subsection.C.1}
+\contentsline {subsubsection}{\numberline {C.1.1}Ccr4p/Pop2p/Notp complex}{11}{subsubsection.C.1.1}
+\contentsline {subsubsection}{\numberline {C.1.2}Not multisubunit complex Not1-Not5}{12}{subsubsection.C.1.2}
+\contentsline {subsection}{\numberline {C.2}Decapping}{13}{subsection.C.2}
+\contentsline {subsection}{\numberline {C.3}5'$\rightarrow $3' exonuclease}{13}{subsection.C.3}
+\contentsline {subsection}{\numberline {C.4}TRAMP complex (polyadenylation complex, involved in RNA surveillance)}{14}{subsection.C.4}
+\contentsline {subsubsection}{\numberline {C.4.1}TRAMP4-Trf4/Air2/Mtr4}{14}{subsubsection.C.4.1}
+\contentsline {subsubsection}{\numberline {C.4.2}TRAMP5-Trf5/Air1/Mtr4}{14}{subsubsection.C.4.2}
+\contentsline {subsection}{\numberline {C.5}Canonical poly(A) polymerase}{14}{subsection.C.5}
+\contentsline {subsection}{\numberline {C.6}Exosome and its related proteins}{14}{subsection.C.6}
+\contentsline {subsubsection}{\numberline {C.6.1}Exosome core}{14}{subsubsection.C.6.1}
+\contentsline {subsubsection}{\numberline {C.6.2}Exosome associated proteins}{15}{subsubsection.C.6.2}
+\contentsline {subsection}{\numberline {C.7}RNA chaperones (Lsm 1-7 and Lsm 2-8)}{15}{subsection.C.7}
+\contentsline {subsection}{\numberline {C.8}Helicase}{15}{subsection.C.8}
+\contentsline {subsubsection}{\numberline {C.8.1}Ski complex}{15}{subsubsection.C.8.1}
+\contentsline {subsubsection}{\numberline {C.8.2}Sen1-Nrd1-Nab3 complex}{16}{subsubsection.C.8.2}
+\contentsline {subsection}{\numberline {C.9}RNA binding proteins}{16}{subsection.C.9}
+\contentsline {subsubsection}{\numberline {C.9.1}PUF family\citep {Gerber2004, Wickens2002}}{16}{subsubsection.C.9.1}

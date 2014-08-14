@@ -1,0 +1,221 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2011.3.18)  18 MAR 2011 17:16
+entering extended mode
+**RNAdecay.tex
+(I:\Work@home\Literatures\Paperdigest\RNAdecay\RNAdecay.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, french, german, german-x-20
+09-06-19, italian, latin, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/01/28 v0.05d Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count88
+\c@@ppsavesec=\count89
+\c@@ppsaveapp=\count90
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+(I:\Work@home\Literatures\Paperdigest\RNAdecay\RNAdecay.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen106
+\MPnumerator=\count95
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 17.
+ <pathway.jpg, id=1, 501.875pt x 213.79875pt>
+File: pathway.jpg Graphic file (type jpg)
+ <use pathway.jpg> [1
+
+{C:/Users/Sun Mai/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <I:/Work@h
+ome/Literatures/Paperdigest/RNAdecay/pathway.jpg>]
+Overfull \hbox (4.94002pt too wide) in paragraph at lines 45--51
+ \OT1/cmr/bx/n/10.95 Qual-ity con-trol path-ways[] []\OT1/cmr/m/n/10.95 The mR-
+NAs which have pre-ma-ture stop codon
+ []
+
+[2] <Pat1pDhh1p.jpg, id=16, 421.62318pt x 143.8173pt>
+File: Pat1pDhh1p.jpg Graphic file (type jpg)
+ <use Pat1pDhh1p.jpg>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 111.
+
+[3 <I:/Work@home/Literatures/Paperdigest/RNAdecay/Pat1pDhh1p.jpg>]
+<Jeroen_2003_fig1.jpg, id=20, 280.04625pt x 444.66125pt>
+File: Jeroen_2003_fig1.jpg Graphic file (type jpg)
+
+<use Jeroen_2003_fig1.jpg> [4] [5 <I:/Work@home/Literatures/Paperdigest/RNAdeca
+y/Jeroen_2003_fig1.jpg>]
+Overfull \hbox (28.32895pt too wide) in paragraph at lines 174--187
+\OT1/cmr/m/n/10.95 the Ccr4-Not com-plex that me-di-ates 3' to 5' mRNA dead-eny
+-la-tion(OpenBiosystem
+ []
+
+
+Overfull \hbox (2.41264pt too wide) in paragraph at lines 174--187
+\OT1/cmr/m/n/10.95 NOT com-plex in-volved in con-trol-ling mRNA ini-ti-a-tion, 
+elon-ga-tion and degra-
+ []
+
+
+Overfull \hbox (28.32895pt too wide) in paragraph at lines 189--208
+\OT1/cmr/m/n/10.95 the Ccr4-Not com-plex that me-di-ates 3' to 5' mRNA dead-eny
+-la-tion(OpenBiosystem
+ []
+
+
+Overfull \hbox (2.41264pt too wide) in paragraph at lines 189--208
+\OT1/cmr/m/n/10.95 NOT com-plex in-volved in con-trol-ling mRNA ini-ti-a-tion, 
+elon-ga-tion and degra-
+ []
+
+[6]
+Overfull \hbox (24.70932pt too wide) in paragraph at lines 208--233
+\OT1/cmr/m/n/10.95 has roles in tran-scrip-tion reg-u-la-tion, mRNA degra-da-ti
+on, and post-transcriptional
+ []
+
+
+Overfull \hbox (0.42146pt too wide) in paragraph at lines 208--233
+\OT1/cmr/m/n/10.95 Pan2 ([]vi-able[]) []YGL094c[] Poly(A) ri-bonu-cle-ase, mem-
+ber of the PAN2p-PAN3p
+ []
+
+[7] [8]
+Overfull \hbox (0.3759pt too wide) in paragraph at lines 281--282
+[]\OT1/cmr/m/n/10.95 PAP1 ([]in-vi-able[]) Poly(A) poly-merase, one of three fa
+c-tors re-quired for mRNA
+ []
+
+[9]
+Overfull \hbox (0.2555pt too wide) in paragraph at lines 318--327
+\OT1/cmr/m/n/10.95 PUB1 ([]vi-able[]) []YNL016w[] Poly(A)+ RNA-binding pro-tein
+, abun-dant mRNP-
+ []
+
+
+Overfull \hbox (0.71053pt too wide) in paragraph at lines 318--327
+\OT1/cmr/m/n/10.95 in P-body-dependent gran-ule as-sem-bly (Open-Biosys-tem YKO
+ col-lec-tion No.:
+ []
+
+[10] (I:\Work@home\Literatures\Paperdigest\RNAdecay\RNAdecay.bbl [11] [12]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no œ in font cmr10!
+
+[13]
+Underfull \hbox (badness 1776) in paragraph at lines 201--206
+[][]\OT1/cmr/m/n/10.95 Shay Ben-Aroya, Can-dice Coombes, Teresa Kwok, Kathryn A
+.
+ []
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+[14]) [15] (I:\Work@home\Literatures\Paperdigest\RNAdecay\RNAdecay.aux) ) 
+Here is how much of TeX's memory you used:
+ 1391 strings out of 495293
+ 18997 string characters out of 3179976
+ 74009 words of memory out of 3000000
+ 4613 multiletter control sequences out of 15000+200000
+ 9772 words of font info for 34 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 25i,8n,20p,504b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on RNAdecay.pdf (15 pages, 416135 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

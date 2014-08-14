@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Kwon et~al.(2013)Kwon, Yi, Eichelbaum, F\"{o}hr, Fischer, You,
+  Castello, Krijgsveld, Hentze, and Kim]{Kwon2013}
+S~Kwon, Hyerim Yi, Katrin Eichelbaum, Sophia F\"{o}hr, Bernd Fischer, Kwon You,
+  Alfredo Castello, Jeroen Krijgsveld, Matthias Hentze, and V~Kim.
+\newblock The {RNA-binding} protein repertoire of embryonic stem cells.
+\newblock \emph{Nature structural \& molecular biology}, 2013.
+
+\end{thebibliography}

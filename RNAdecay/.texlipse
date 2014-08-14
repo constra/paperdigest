@@ -1,0 +1,13 @@
+#TeXlipse project settings
+#Mon Dec 27 17:06:04 CET 2010
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=RNAdecay.tex
+outputFile=RNAdecay.pdf
+langSpell=en
+markDer=true
+srcDir=

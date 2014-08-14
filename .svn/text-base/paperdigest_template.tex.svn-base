@@ -1,0 +1,38 @@
+\documentclass[a4paper, 11pt]{article}
+
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{appendix}
+\usepackage[round]{natbib}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\hypersetup{
+	pdfmenubar = true, 
+	colorlinks = true,
+	linkcolor = black}
+\newcommand{\CITE}[1]{\citep{#1}}
+\begin{document}
+\bibliographystyle{plainnatnourl} %%Self made package derived from plainnat without url and doi
+\title{The current trends in RNA biology}
+\author{Sun Mai}
+\date{3. September 2013 $\sim$ \today}
+\maketitle
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[R]{\slshape \leftmark}
+\fancyfoot[C]{\thepage}
+
+\newpage
+\tableofcontents
+
+\newpage
+\sloppy
+\section{The non-coding RNAs}
+	\subsection{The long non-coding RNAs (lncRNAs)}
+		\paragraph{paragraph 1}
+
+
+\bibliography{Literature}
+\end{document}

@@ -1,0 +1,47 @@
+\BOOKMARK [1][-]{section.1}{Overview}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{The different pathways in RNA degradation}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Deadenylation machinery and regulation}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Poly\(A\) binding protein Pab1p}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Ccr4-Not complex}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Pan2p/Pan3p exonuclease represents as second mRNA deadanylase}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Decapping machinery and its regulation}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Dcp1p and Dcp2p}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{The scavenger decapping enzyme DcpS}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{The regulator of decapping}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{5'3' degradation}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Xrn1 and decapping dependent 5' 3' degradation}{section.4}% 12
+\BOOKMARK [1][-]{section.5}{The synthesis decay cross-talk}{}% 13
+\BOOKMARK [2][-]{subsection.5.1}{Cross-talk between RNA decay and translation}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.2}{P-body formation}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.3}{Cross-talk between RNA decay and transcription}{section.5}% 16
+\BOOKMARK [1][-]{section.6}{3' 5' degradation}{}% 17
+\BOOKMARK [2][-]{subsection.6.1}{The cytoplasmic exosome complex and its regulation}{section.6}% 18
+\BOOKMARK [2][-]{subsection.6.2}{The nuclear exosome complex}{section.6}% 19
+\BOOKMARK [1][-]{section.7}{Regulation of the RNA stability by RNA binding proteins}{}% 20
+\BOOKMARK [2][-]{subsection.7.1}{the Puf family}{section.7}% 21
+\BOOKMARK [1][-]{section.8}{Concerning the method}{}% 22
+\BOOKMARK [2][-]{subsection.8.1}{Normalization with internal or external standard}{section.8}% 23
+\BOOKMARK [1][-]{appendix.A}{Auxin-Degron strains}{}% 24
+\BOOKMARK [2][-]{subsection.A.1}{The genes which are essential}{appendix.A}% 25
+\BOOKMARK [1][-]{appendix.B}{YKO strains}{}% 26
+\BOOKMARK [2][-]{subsection.B.1}{DeadenylationMeyer2004}{appendix.B}% 27
+\BOOKMARK [3][-]{subsubsection.B.1.1}{Ccr4p/Pop2p/Notp complex}{subsection.B.1}% 28
+\BOOKMARK [1][-]{appendix.C}{Genes involved in RNA turnover}{}% 29
+\BOOKMARK [2][-]{subsection.C.1}{DeadenylationMeyer2004}{appendix.C}% 30
+\BOOKMARK [3][-]{subsubsection.C.1.1}{Ccr4p/Pop2p/Notp complex}{subsection.C.1}% 31
+\BOOKMARK [3][-]{subsubsection.C.1.2}{Not multisubunit complex Not1-Not5}{subsection.C.1}% 32
+\BOOKMARK [2][-]{subsection.C.2}{Decapping}{appendix.C}% 33
+\BOOKMARK [2][-]{subsection.C.3}{5'3' exonuclease}{appendix.C}% 34
+\BOOKMARK [2][-]{subsection.C.4}{TRAMP complex \(polyadenylation complex, involved in RNA surveillance\)}{appendix.C}% 35
+\BOOKMARK [3][-]{subsubsection.C.4.1}{TRAMP4-Trf4/Air2/Mtr4}{subsection.C.4}% 36
+\BOOKMARK [3][-]{subsubsection.C.4.2}{TRAMP5-Trf5/Air1/Mtr4}{subsection.C.4}% 37
+\BOOKMARK [2][-]{subsection.C.5}{Canonical poly\(A\) polymerase}{appendix.C}% 38
+\BOOKMARK [2][-]{subsection.C.6}{Exosome and its related proteins}{appendix.C}% 39
+\BOOKMARK [3][-]{subsubsection.C.6.1}{Exosome core}{subsection.C.6}% 40
+\BOOKMARK [3][-]{subsubsection.C.6.2}{Exosome associated proteins}{subsection.C.6}% 41
+\BOOKMARK [2][-]{subsection.C.7}{RNA chaperones \(Lsm 1-7 and Lsm 2-8\)}{appendix.C}% 42
+\BOOKMARK [2][-]{subsection.C.8}{Helicase}{appendix.C}% 43
+\BOOKMARK [3][-]{subsubsection.C.8.1}{Ski complex}{subsection.C.8}% 44
+\BOOKMARK [3][-]{subsubsection.C.8.2}{Sen1-Nrd1-Nab3 complex}{subsection.C.8}% 45
+\BOOKMARK [2][-]{subsection.C.9}{RNA binding proteins}{appendix.C}% 46
+\BOOKMARK [3][-]{subsubsection.C.9.1}{PUF familyGerber2004, Wickens2002}{subsection.C.9}% 47

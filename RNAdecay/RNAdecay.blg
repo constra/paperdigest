@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: RNAdecay.aux
+The style file: plainnatnourl.bst
+Database file #1: Literature.bib
+Warning--entry type for "Holstege1998" isn't style-file defined
+--line 10019 of file Literature.bib
+Warning--empty journal in Ben-Aroya2008
+Warning--empty journal in Denis2003
+You've used 48 entries,
+            2733 wiz_defined-function locations,
+            998 strings with 21268 characters,
+and the built_in function-call counts, 26556 in all, are:
+= -- 2384
+> -- 1924
+< -- 15
++ -- 642
+- -- 594
+* -- 2590
+:= -- 4212
+add.period$ -- 153
+call.type$ -- 48
+change.case$ -- 342
+chr.to.int$ -- 48
+cite$ -- 98
+duplicate$ -- 891
+empty$ -- 1770
+format.name$ -- 670
+if$ -- 5337
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 47
+newline$ -- 257
+num.names$ -- 192
+pop$ -- 496
+preamble$ -- 1
+purify$ -- 294
+quote$ -- 0
+skip$ -- 781
+stack$ -- 0
+substring$ -- 1297
+swap$ -- 70
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 528
+warning$ -- 2
+while$ -- 226
+width$ -- 0
+write$ -- 645
+(There were 3 warnings)

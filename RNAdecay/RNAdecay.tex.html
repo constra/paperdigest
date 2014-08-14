@@ -1,0 +1,400 @@
+<html><head><style type="text/css">pre { margin: 1px }
+.fmt0 {  } /* normal */
+.fmt1 {  } /* background */
+.fmt2 {  } /* line:error */
+.fmt3 {  } /* line:warning */
+.fmt4 {  } /* line:badbox */
+.fmt5 {  } /* line:bookmark */
+.fmt6 {  } /* line:bookmark0 */
+.fmt7 {  } /* line:bookmark1 */
+.fmt8 {  } /* line:bookmark2 */
+.fmt9 {  } /* line:bookmark3 */
+.fmt10 {  } /* line:bookmark4 */
+.fmt11 {  } /* line:bookmark5 */
+.fmt12 {  } /* line:bookmark6 */
+.fmt13 {  } /* line:bookmark7 */
+.fmt14 {  } /* line:bookmark8 */
+.fmt15 {  } /* line:bookmark9 */
+.fmt16 { background-color: #55aa00; } /* commentTodo */
+.fmt17 { color: #808080; } /* comment */
+.fmt18 { color: #800000; } /* keyword */
+.fmt19 { font-weight: 700;color: #0095ff; } /* extra-keyword */
+.fmt20 { color: #808000; } /* math-keyword */
+.fmt21 { color: #008080; } /* verbatim */
+.fmt22 { font-weight: 700;color: #ff0000;background-color: #ffff00; } /* braceMatch */
+.fmt23 { font-weight: 700;color: #ffff00;background-color: #ff0000; } /* braceMismatch */
+.fmt24 { color: #000000;background-color: #ffff00; } /* search */
+.fmt25 { color: #008000; } /* numbers */
+.fmt26 { color: #ff0000; } /* text */
+.fmt27 { color: #ff0088; } /* escapeseq */
+.fmt28 { border-bottom: 1px dashed #008000; } /* styleHint */
+.fmt29 { border-bottom: 1px dashed #ff0000; } /* spellingMistake */
+.fmt30 { background-color: #ffa000; } /* latexSyntaxMistake */
+.fmt31 { font-style: italic;color: #0000ff; } /* temporaryCodeCompletion */
+.fmt32 { color: #000080; } /* environment */
+.fmt33 { color: #008000; } /* referencePresent */
+.fmt34 { border-bottom: 1px dashed #008000;color: #008000; } /* referenceMissing */
+.fmt35 { border-bottom: 1px dashed #800080;color: #800080; } /* referenceMultiple */
+.fmt36 { color: #008000; } /* citationPresent */
+.fmt37 { border-bottom: 1px dashed #008000;color: #008000; } /* citationMissing */
+.fmt38 { font-weight: 700;color: #000000; } /* structure */
+.fmt39 { background-color: #eeeeff; } /* current */
+.fmt40 { background-color: #aaffff; } /* selection */
+.fmt41 { background-color: #ffaaaa; } /* replacement */
+</style></head><body><pre><span class="fmt18">\documentclass</span>[a4paper,11pt]{article} </pre>
+<pre><span class="fmt18">\usepackage</span>{fancyhdr} </pre>
+<pre><span class="fmt18">\pagestyle</span>{fancy} </pre>
+<pre><span class="fmt18">\renewcommand</span>{<span class="fmt18">\sectionmark</span>}[1]{<span class="fmt17">%</span> </pre>
+<pre><span class="fmt18">\markright</span>{<span class="fmt18"><span class="fmt30"><span class="fmt30">\thesection</span></span></span>\ #1}} </pre>
+<pre><span class="fmt18">\fancyhf</span>{} <span class="fmt17">%</span><span class="fmt17"> </span><span class="fmt17">delete</span><span class="fmt17"> </span><span class="fmt17">current</span><span class="fmt17"> </span><span class="fmt17">header</span><span class="fmt17"> </span><span class="fmt17">and</span><span class="fmt17"> </span><span class="fmt17">footer</span> </pre>
+<pre><span class="fmt18">\fancyhead</span>[LE,RO]{<span class="fmt18">\bfseries\thepage</span>} </pre>
+<pre><span class="fmt18">\fancyhead</span>[LO]{<span class="fmt18">\bfseries\rightmark</span>} </pre>
+<pre><span class="fmt18">\fancyhead</span>[RE]{<span class="fmt18">\bfseries</span><span class="fmt18"><span class="fmt30"><span class="fmt30">\leftmark</span></span></span>} </pre>
+<pre><span class="fmt18">\renewcommand</span>{<span class="fmt18">\headrulewidth</span>}{0.<span class="fmt29">5pt</span>} </pre>
+<pre><span class="fmt18">\renewcommand</span>{<span class="fmt18">\footrulewidth</span>}{<span class="fmt29">0pt</span>} </pre>
+<pre><span class="fmt18"><span class="fmt30"><span class="fmt30">\addtolength</span></span></span>{<span class="fmt18"><span class="fmt30"><span class="fmt30">\headheight</span></span></span>}{0.<span class="fmt29">5pt</span>} <span class="fmt17">%</span><span class="fmt17"> </span><span class="fmt17">space</span><span class="fmt17"> </span><span class="fmt17">for</span><span class="fmt17"> </span><span class="fmt17">the</span><span class="fmt17"> </span><span class="fmt17">rule</span> </pre>
+<pre><span class="fmt18">\fancypagestyle</span>{plain}{<span class="fmt17">%</span> </pre>
+<pre><span class="fmt18">\fancyhead</span>{} <span class="fmt17">%</span><span class="fmt17"> </span><span class="fmt17">get</span><span class="fmt17"> </span><span class="fmt17">rid</span><span class="fmt17"> </span><span class="fmt17">of</span><span class="fmt17"> </span><span class="fmt17">headers</span><span class="fmt17"> </span><span class="fmt17">on</span><span class="fmt17"> </span><span class="fmt17">plain</span><span class="fmt17"> </span><span class="fmt17">pages</span> </pre>
+<pre><span class="fmt18">\renewcommand</span>{<span class="fmt18">\headrulewidth</span>}{<span class="fmt29">0pt</span>} <span class="fmt17">%</span><span class="fmt17"> </span><span class="fmt17">and</span><span class="fmt17"> </span><span class="fmt17">the</span><span class="fmt17"> </span><span class="fmt17">line</span> </pre>
+<pre>} </pre>
+<pre> </pre>
+<pre><span class="fmt18">\usepackage</span>{pdfsync} </pre>
+<pre><span class="fmt18">\usepackage</span>[english]{babel} </pre>
+<pre><span class="fmt18">\usepackage</span>{graphicx} </pre>
+<pre><span class="fmt18">\usepackage</span>{appendix} </pre>
+<pre><span class="fmt18">\usepackage</span>[round]{natbib} </pre>
+<pre><span class="fmt18">\usepackage</span>[usenames, dvipsnames]{color} </pre>
+<pre> </pre>
+<pre><span class="fmt19">\begin{</span><span class="fmt19"><span class="fmt32">document</span></span><span class="fmt19">}</span> </pre>
+<pre><span class="fmt18">\bibliographystyle</span>{plainnatnourl}	<span class="fmt17">%%Self</span><span class="fmt17"> </span><span class="fmt17">made</span><span class="fmt17"> </span><span class="fmt17">package</span><span class="fmt17"> </span><span class="fmt17">derived</span><span class="fmt17"> </span><span class="fmt17">from</span><span class="fmt17"> </span><span class="fmt17">plainnat</span><span class="fmt17"> </span><span class="fmt17">without</span><span class="fmt17"> </span><span class="fmt17">url</span><span class="fmt17"> </span><span class="fmt17">and</span><span class="fmt17"> </span><span class="fmt17">doi</span> </pre>
+<pre><span class="fmt18">\title</span>{Literature Review of <span class="fmt29">RNA</span> Decay} </pre>
+<pre><span class="fmt18">\author</span>{Sun Mai} </pre>
+<pre><span class="fmt18">\date</span>{<span class="fmt18">\today</span>} </pre>
+<pre><span class="fmt18">\maketitle</span> </pre>
+<pre> </pre>
+<pre><span class="fmt18">\newpage</span> </pre>
+<pre><span class="fmt18">\tableofcontents</span> </pre>
+<pre> </pre>
+<pre><span class="fmt18">\newpage</span> </pre>
+<pre><span class="fmt18"><span class="fmt30"><span class="fmt30">\sloppy</span></span></span> </pre>
+<pre><span class="fmt19">\section</span>{<span class="fmt38">Overview</span>} </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">The</span><span class="fmt38"> </span><span class="fmt38">different</span><span class="fmt38"> </span><span class="fmt38">pathways</span><span class="fmt38"> </span><span class="fmt38">in</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">RNA</span></span><span class="fmt38"> </span><span class="fmt38">degradation</span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{}In the most species studied, <span class="fmt29">RNA</span> degradation is governed by multiple </pre>
+<pre>mechanisms. There are four general pathways(Figure <span class="fmt18">\ref</span>{<span class="fmt33">pathway</span>}): the </pre>
+<pre><span class="fmt29">deadenylation</span> dependent <span class="fmt29">decapping</span> followed by 5'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span> 3' degradation, or </pre>
+<pre>3'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span> 5' degradation by <span class="fmt29">exosome</span>, the <span class="fmt29">endonucleolytic</span> digestion and </pre>
+<pre>special quality control pathways.  </pre>
+<pre><span class="fmt19">\begin{</span><span class="fmt19"><span class="fmt32">figure</span></span><span class="fmt19">}</span>[h]  </pre>
+<pre><span class="fmt18">\centering</span> </pre>
+<pre><span class="fmt18">\includegraphics</span>[scale=0.5]{pathway.jpg} </pre>
+<pre>					<span class="fmt18">\caption</span>{The draft of different pathways of degradation<span class="fmt18">\citep</span>{<span class="fmt36">cp04</span>}} </pre>
+<pre>					<span class="fmt18">\label</span>{<span class="fmt33">pathway</span>} </pre>
+<pre>				<span class="fmt19">\end{</span><span class="fmt19"><span class="fmt32">figure</span></span><span class="fmt19">}</span> </pre>
+<pre><span class="fmt19">\paragraph</span>{Degradation and translation are in competition}Translation competes </pre>
+<pre>with <span class="fmt29">mRNA</span> degradation <span class="fmt18">\textit</span>{in <span class="fmt29">vivo</span>}, some experimental results show this. For </pre>
+<pre>example mutations in translation initiation factors that decrease translation </pre>
+<pre>rates increase the rate of <span class="fmt29">decapping</span><span class="fmt18">\citep</span>{<span class="fmt36">sp99</span>}. All treatments that decrease </pre>
+<pre>ribosome loading increase <span class="fmt29">decapping</span>, whereas all manipulations that increase </pre>
+<pre>ribosome loading decrease <span class="fmt29">decapping</span> rates<span class="fmt18">\citep</span>{<span class="fmt36">lp99</span>}. The tight association of </pre>
+<pre>the initiation complex with the cap can provide <span class="fmt29">mRNA</span> from <span class="fmt29">decapping</span>. </pre>
+<pre><span class="fmt19">\paragraph</span>{<span class="fmt29">Deadenylation</span> leads to 5' <span class="fmt25">$</span><span class="fmt25"> </span><span class="fmt20">\rightarrow</span><span class="fmt25"> </span><span class="fmt25">$</span> 3' degradation}In yeast </pre>
+<pre><span class="fmt29">polyA</span> shortening leads to <span class="fmt29">decapping</span> and thereby exposing the <span class="fmt29">RNAs</span> to 5' <span class="fmt25">$</span> </pre>
+<pre><span class="fmt20">\rightarrow</span><span class="fmt25"> </span><span class="fmt25">$</span> 3' digestion by <span class="fmt29">exonuclease</span><span class="fmt18">\citep</span>{<span class="fmt36">mdp94</span>,<span class="fmt36">Decker1993</span>}. <span class="fmt18">\textit</span>{In </pre>
+<pre><span class="fmt29">vivo</span>} the <span class="fmt29">mRNAs</span> is protected from <span class="fmt29">decapping</span> through a poly(A) dependent </pre>
+<pre>manner<span class="fmt18">\citep</span>{<span class="fmt36">Caponigro1995</span>, <span class="fmt36">Decker1993</span>}. The poly(A) binding protein <span class="fmt29">Pab1p</span> plays </pre>
+<pre>the major role in the inhibition of <span class="fmt29">decapping</span><span class="fmt18">\citep</span>{<span class="fmt36">Caponigro1995</span>}.  The ability </pre>
+<pre>of <span class="fmt29">Pab1p</span> to inhibit <span class="fmt29">decapping</span> is intrinsic and is independent of the binding to </pre>
+<pre>poly(A)<span class="fmt18">\citep</span>{<span class="fmt36">Coller1998</span>}. <span class="fmt29">Decapping</span> is conserved throughout <span class="fmt29">eukaryotic</span> </pre>
+<pre>organisms. Evidence shows that in yeast the 5' <span class="fmt25">$</span><span class="fmt25"> </span><span class="fmt20">\rightarrow</span><span class="fmt25"> </span><span class="fmt25">$</span> 3' degradation </pre>
+<pre>following <span class="fmt29">decapping</span> is faster then the 3' <span class="fmt25">$</span><span class="fmt25"> </span><span class="fmt20">\rightarrow</span><span class="fmt25"> </span><span class="fmt25">$</span> 5' degradation. </pre>
+<pre>However in some yeast <span class="fmt29">mRNA</span> 3' <span class="fmt25">$</span><span class="fmt25"> </span><span class="fmt20">\rightarrow</span><span class="fmt25"> </span><span class="fmt25">$</span> 5' degradation will be the </pre>
+<pre>dominant decay mechanism.  </pre>
+<pre><span class="fmt19">\paragraph</span>{Quality control pathways}The <span class="fmt29">mRNAs</span> which </pre>
+<pre>have premature stop codon triggers the <span class="fmt29">NMD</span> pathway. Or if the <span class="fmt29">mRNA</span> molecules </pre>
+<pre>lack a stop codon, they will be subjected to the non-stop decay. In both these </pre>
+<pre>cases, the <span class="fmt29">mRNAs</span> are targeted to cytoplasmic <span class="fmt29">exosome</span> by a special factor <span class="fmt29">Ski7p</span>. </pre>
+<pre>In nucleus, the <span class="fmt29">RNAs</span> which failed to be processed properly is also degraded by </pre>
+<pre>the nuclear <span class="fmt29">exosome</span> or the nuclear homologue of <span class="fmt29">Xrn1p</span>, the <span class="fmt29">Rat1p</span>. </pre>
+<pre><span class="fmt19">\section</span>{<span class="fmt38"><span class="fmt29">Deadenylation</span></span><span class="fmt38"> </span><span class="fmt38">machinery</span><span class="fmt38"> </span><span class="fmt38">and</span><span class="fmt38"> </span><span class="fmt38">regulation</span>} </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">Poly(A)</span><span class="fmt38"> </span><span class="fmt38">binding</span><span class="fmt38"> </span><span class="fmt38">protein</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">Pab1p</span></span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{<span class="fmt29">Pab1p</span> functions as negative regulator of <span class="fmt29">RNA</span> decay}<span class="fmt29">mRNA</span> is subjected </pre>
+<pre>to degradation when the poly(A) tail is shortened to <span class="fmt29">certen</span> length. <span class="fmt29">Pab1p</span> bind </pre>
+<pre>to poly(A) tail and inhibit both poly(A) shortening<span class="fmt18">\citep</span>{<span class="fmt36">tsv+02</span>} and </pre>
+<pre><span class="fmt29">decapping</span><span class="fmt18">\citep</span>{<span class="fmt36">Coller1998</span>}. </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">Ccr4</span></span><span class="fmt38">-Not</span><span class="fmt38"> </span><span class="fmt38">complex</span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{General about <span class="fmt29">Ccr4</span>-Not complex}<span class="fmt29">Ccr4</span>-Not complex is one of the global regulator of gene </pre>
+<pre>expression<span class="fmt18">\citep</span>{<span class="fmt36">Collart2003</span>}. It regulates the <span class="fmt29">RNA</span> turnover at several steps. </pre>
+<pre>This multifunctional complex in <span class="fmt18">\textit</span>{S. <span class="fmt29">cerevisiae</span>} exists in two forms, one </pre>
+<pre>is the 0.9-1.<span class="fmt29">2MDa</span> complex, the other is the 1.9-<span class="fmt29">2MDa</span>, which contains proteins </pre>
+<pre>from the transcription <span class="fmt29">machinary</span><span class="fmt18">\citep</span>{<span class="fmt36">bsc+99</span>}. <span class="fmt29">Ccr4</span>-Not complex was identified </pre>
+<pre>as transcription factor, is important in the regulation of <span class="fmt29">TFIID</span> distribution on </pre>
+<pre>promoters<span class="fmt18">\citep</span>{<span class="fmt36">Lenssen2007</span>, <span class="fmt36">Lenssen2005</span>}. Because the two subunits of this </pre>
+<pre>complex, <span class="fmt29">Ccr4p</span> and <span class="fmt29">Caf1p</span>, are <span class="fmt29">deadenylases</span><span class="fmt18">\citep</span>{<span class="fmt36">tvs+01</span>}, <span class="fmt29">Ccr4</span>-Not complex also </pre>
+<pre>contributes to <span class="fmt29">mRNA</span> degradation. <span class="fmt29">Ccr4</span>-Not complex even has function in protein </pre>
+<pre>degradation, since <span class="fmt29">Not4p</span> was identified as a E3 <span class="fmt29">ligase</span><span class="fmt18">\citep</span>{<span class="fmt36">Albert2002</span>}.Latest </pre>
+<pre>study <span class="fmt18">\textit</span>{in vitro} confirmed <span class="fmt29">Ccr4</span>-Not complex function in transcription </pre>
+<pre>elongation<span class="fmt18">\citep</span>{<span class="fmt36">Kruk2011</span>} by performing <span class="fmt29">ChIP</span> assay. </pre>
+<pre><span class="fmt19">\paragraph</span>{<span class="fmt29">Pop2p</span>/<span class="fmt29">Caf1p</span>} <span class="fmt29">Pop2p</span> is one of the two subunits in <span class="fmt29">Ccr4</span>-Not complex, which has <span class="fmt29">deadenylase</span> activity. <span class="fmt29">Pop2p</span> belongs to the <span class="fmt29">DEDD</span> nuclease family, and shows 3'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span> 5' <span class="fmt29">exnuclease</span> activity with preferences for poly(A) sequence <span class="fmt18">\textit</span>{in vitro}. However, mutations of <span class="fmt29">Pop2p</span> to disrupt the catalytic activity doesn't cause <span class="fmt29">deadenylation</span> defect in <span class="fmt18">\textit</span>{in <span class="fmt29">vivo</span>}. Besides the structural function of <span class="fmt29">Pop2p</span> as a remainder of <span class="fmt29">Ccr4</span>-Not complex, it also has other separate functions in <span class="fmt29">deadenylation</span> <span class="fmt18">\textit</span>{in <span class="fmt29">vivo</span>}<span class="fmt18">\citep</span>{<span class="fmt36">Ohn2007</span>}. <span class="fmt29">Deadenylation</span> end point defect is observed in several <span class="fmt29">Pop2p</span> mutants, in which conserved region is mutated or deleted<span class="fmt18">\citep</span>{<span class="fmt36">Ohn2007</span>}. Furthermore, <span class="fmt25">$</span><span class="fmt20">\Delta</span><span class="fmt25">$</span><span class="fmt29">pop2</span> was shown synthetic lethal with <span class="fmt25">$</span><span class="fmt20">\Delta</span><span class="fmt25">$</span><span class="fmt29">dhh1</span>, whereas <span class="fmt25">$</span><span class="fmt20">\Delta</span><span class="fmt25">$</span><span class="fmt29">ccr4</span> is not synthetic lethal with <span class="fmt25">$</span><span class="fmt20">\Delta</span><span class="fmt25">$</span><span class="fmt29">dhh1</span><span class="fmt18">\citep</span>{<span class="fmt36">Maillet2002</span>}. </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">Pan2p</span></span><span class="fmt38">/</span><span class="fmt38"><span class="fmt29">Pan3p</span></span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">exonuclease</span></span><span class="fmt38"> </span><span class="fmt38">represents</span><span class="fmt38"> </span><span class="fmt38">as</span><span class="fmt38"> </span><span class="fmt38">second</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">mRNA</span></span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">deadanylase</span></span>} </pre>
+<pre><span class="fmt19">\section</span>{<span class="fmt38"><span class="fmt29">Decapping</span></span><span class="fmt38"> </span><span class="fmt38">machinery</span><span class="fmt38"> </span><span class="fmt38">and</span><span class="fmt38"> </span><span class="fmt38">its</span><span class="fmt38"> </span><span class="fmt38">regulation</span>} </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">Dcp1p</span></span><span class="fmt38"> </span><span class="fmt38">and</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">Dcp2p</span></span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{}Many experiment evidences show that the <span class="fmt29">Dcp2p</span> is the catalytic </pre>
+<pre>subunit of <span class="fmt29">decapping</span> machinery, whereas <span class="fmt29">Dcp1p</span> functions to enhance the activity </pre>
+<pre>of <span class="fmt29">Dcp2p</span>. <span class="fmt29">Dcp2p</span> contains a <span class="fmt29">NUDIX</span>/<span class="fmt29">MutT</span> domain, <span class="fmt29">which's</span> deletion leads to </pre>
+<pre>inactivation of <span class="fmt29">Dcp2p</span> <span class="fmt18">\textit</span>{in <span class="fmt29">vivo</span>} and <span class="fmt18">\textit</span>{in vitro}<span class="fmt18">\citep</span>{<span class="fmt36">dp99</span>}. The </pre>
+<pre>activity of <span class="fmt29">Dcp1</span>/<span class="fmt29">Dcp2p</span> is not inhibited by cap analogues. This and other </pre>
+<pre>evidences suggest that the <span class="fmt29">Dcp1</span>/<span class="fmt29">Dcp2p</span> may bind to <span class="fmt29">mRNA</span> and this may </pre>
+<pre><span class="fmt29">allosterically</span> regulate <span class="fmt29">decapping</span> activity. </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">The</span><span class="fmt38"> </span><span class="fmt38">scavenger</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">decapping</span></span><span class="fmt38"> </span><span class="fmt38">enzyme</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">DcpS</span></span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{}There is another type of <span class="fmt29">decapping</span> enzyme, which <span class="fmt29">degradate</span> the short </pre>
+<pre>capped <span class="fmt29">RNA</span> produced by <span class="fmt29">exosome</span> dependent 5'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25"> </span><span class="fmt25">$</span>3' </pre>
+<pre>degradation<span class="fmt18">\citep</span>{<span class="fmt36">Wang2001</span>}. Long <span class="fmt29">RNA</span> substrate cannot be degraded by <span class="fmt29">DcpS</span>. It </pre>
+<pre>also hydrolyses the <span class="fmt29">7mGDP</span> to produce <span class="fmt29">7mGMP</span> and phosphate. The <span class="fmt29">DcpS</span> is a HIT </pre>
+<pre>domain contained protein, and it reacts specifically with methylated cap </pre>
+<pre>analogue <span class="fmt18">\textit</span>{in vitro}. It cannot <span class="fmt29">hydrolyze</span> <span class="fmt29">unmethylated</span> cap and intact </pre>
+<pre>capped <span class="fmt29">RNA</span><span class="fmt18">\citep</span>{<span class="fmt36">Liu2002</span>}. </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">The</span><span class="fmt38"> </span><span class="fmt38">regulator</span><span class="fmt38"> </span><span class="fmt38">of</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">decapping</span></span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{} The <span class="fmt29">decapping</span> process is regulated by both inhibition and </pre>
+<pre>enhancement. An example is the <span class="fmt29">polyA</span> binding protein <span class="fmt29">Pab1p</span>, deletion of <span class="fmt29">Pab1p</span> </pre>
+<pre>cause <span class="fmt29">decapping</span> prior to <span class="fmt29">deadenylation</span><span class="fmt18">\citep</span>{<span class="fmt36">Caponigro1995</span>, <span class="fmt36">Morrissey1999</span>}. Other </pre>
+<pre>proteins which bind to the <span class="fmt28">the</span> cap like <span class="fmt29">eIF4E</span> also inhibits the <span class="fmt29">decapping</span>. There </pre>
+<pre>are several groups of proteins, which play the role of enhancer of <span class="fmt29">decapping</span>. </pre>
+<pre><span class="fmt17">%still</span><span class="fmt17"> </span><span class="fmt17">to</span><span class="fmt17"> </span><span class="fmt17">be</span><span class="fmt17"> </span><span class="fmt17">extended</span><span class="fmt17"> </span><span class="fmt17">\paragraph{Dhh1p</span><span class="fmt17"> </span><span class="fmt17">and</span><span class="fmt17"> </span><span class="fmt17">Pat1p}The</span><span class="fmt17"> </span><span class="fmt17">decapping</span><span class="fmt17"> </span><span class="fmt17">activatior</span><span class="fmt17"> </span><span class="fmt17">Dhh1p</span> </pre>
+<pre>and <span class="fmt29">Pat1p</span> function in the pathway of moving <span class="fmt29">mRNAs</span> from <span class="fmt29">polysomes</span> into the </pre>
+<pre><span class="fmt29">translationally</span> inert state that accumulates in P bodies(Figure <span class="fmt18">\ref</span>{<span class="fmt33">pbody</span>}). </pre>
+<pre><span class="fmt29">Dhh1p</span> and <span class="fmt29">Pat1p</span> interact with subunits in translation initiation complex, and </pre>
+<pre>repress translation, thus promote the P body formation. In study of glucose </pre>
+<pre>starvation, translational repression is observed in WT cell to response to the </pre>
+<pre>environment cue. But in <span class="fmt18">\textit</span>{<span class="fmt29">dhh1</span>}<span class="fmt25">$</span><span class="fmt20">\Delta</span><span class="fmt25">$</span> and <span class="fmt18">\textit</span>{<span class="fmt29">pat1</span>}<span class="fmt25">$</span><span class="fmt20">\Delta</span><span class="fmt25">$</span> strain, </pre>
+<pre>translational repression is only slightly impaired. <span class="fmt29">Dhh1p</span> represses translation </pre>
+<pre>may function in a way that <span class="fmt29">Dhh1p</span> directly binds to translation initiation </pre>
+<pre>factors. Experiments show that <span class="fmt29">Dhh1p</span> inhibits the formation of <span class="fmt29">48S</span> complex </pre>
+<pre><span class="fmt18">\textit</span>{in vitro}<span class="fmt18">\citep</span>{<span class="fmt36">Coller2005</span>}.  </pre>
+<pre><span class="fmt19">\begin{</span><span class="fmt19"><span class="fmt32">figure</span></span><span class="fmt19">}</span>[h]  </pre>
+<pre><span class="fmt18">\centering</span> </pre>
+<pre><span class="fmt18">\includegraphics</span>[scale=0.5]{Pat1pDhh1p.jpg} </pre>
+<pre>				<span class="fmt18">\caption</span>{Model of the equilibrium shift between <span class="fmt29">polysome</span> formation and P body accumulation regulated by <span class="fmt29">decapping</span> activators and translation initiation factors<span class="fmt18">\citep</span>{<span class="fmt36">Coller2005</span>}} </pre>
+<pre>				<span class="fmt18">\label</span>{<span class="fmt33">pbody</span>}			 </pre>
+<pre>			<span class="fmt19">\end{</span><span class="fmt19"><span class="fmt32">figure</span></span><span class="fmt19">}</span> </pre>
+<pre><span class="fmt19">\section</span>{<span class="fmt38">5'</span><span class="fmt25"><span class="fmt38">$</span></span><span class="fmt20"><span class="fmt38">\rightarrow</span></span><span class="fmt25"><span class="fmt38">$</span></span><span class="fmt38">3'</span><span class="fmt38"> </span><span class="fmt38">degradation</span>}	 </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">Xrn1</span></span><span class="fmt38"> </span><span class="fmt38">and</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">decapping</span></span><span class="fmt38"> </span><span class="fmt38">dependent</span><span class="fmt38"> </span><span class="fmt38">5'</span><span class="fmt25"><span class="fmt38">$</span></span><span class="fmt25"><span class="fmt38"> </span></span><span class="fmt20"><span class="fmt38">\rightarrow</span></span><span class="fmt25"><span class="fmt38"> </span></span><span class="fmt25"><span class="fmt38">$</span></span><span class="fmt38">3'</span><span class="fmt38"> </span><span class="fmt38">degradation</span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{}The cap structure prevents <span class="fmt29">mRNA</span> from degradation, accumulation of </pre>
+<pre><span class="fmt29">mRNA</span> without 5'-cap is observed in <span class="fmt18">\textit</span>{<span class="fmt29">xrn1</span>}<span class="fmt25">$</span><span class="fmt20">\Delta</span><span class="fmt25">$</span> yeast<span class="fmt18">\citep</span>{<span class="fmt36">hs93</span>}. The </pre>
+<pre><span class="fmt29">exonuclease</span> <span class="fmt29">Xrn1p</span> (or <span class="fmt29">Kem1p</span> in budding yeast) degrade preferentially <span class="fmt29">mRNA</span> with a </pre>
+<pre>5'-mono-phosphate. </pre>
+<pre><span class="fmt19">\section</span>{<span class="fmt38">The</span><span class="fmt38"> </span><span class="fmt38">cross-talks</span><span class="fmt38"> </span><span class="fmt38">between</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">RNA</span></span><span class="fmt38"> </span><span class="fmt38">decay,</span><span class="fmt38"> </span><span class="fmt38">translation</span><span class="fmt38"> </span><span class="fmt38">and</span><span class="fmt38"> </span><span class="fmt38">transcription</span>} </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">Cross-talk</span><span class="fmt38"> </span><span class="fmt38">between</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">RNA</span></span><span class="fmt38"> </span><span class="fmt38">decay</span><span class="fmt38"> </span><span class="fmt38">and</span><span class="fmt38"> </span><span class="fmt38">translation</span>} </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">P-body</span><span class="fmt38"> </span><span class="fmt38">formation</span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{<span class="fmt29">Decapping</span> occurs in P-body}In yeast, <span class="fmt29">GFP</span>-tagged <span class="fmt29">Dcp1p</span>, <span class="fmt29">Dcp2p</span>, <span class="fmt29">Lsm1p</span>, </pre>
+<pre><span class="fmt29">Pat1p</span>, <span class="fmt29">Dhh1p</span> and <span class="fmt29">Xrn1p</span> have been localized to P bodies. When use the translation </pre>
+<pre>elongation inhibitor <span class="fmt29">cycloheximide</span>, which trap <span class="fmt29">mRNA</span> in <span class="fmt29">polysomes</span>, P bodies </pre>
+<pre>disappear in 10 <span class="fmt29">min</span><span class="fmt18">\citep</span>{<span class="fmt36">sp03</span>}. This result strongly support the hypothesis that </pre>
+<pre>P bodies are the cellular foci, where <span class="fmt29">decapping</span> takes place. The existence of P </pre>
+<pre>bodies and that the <span class="fmt29">mRNA</span> are sequestrated into P bodies may suggest that it is a </pre>
+<pre>fundamental buffering system for translational control. Another explanation of </pre>
+<pre>the P body formation is because the high dynamic of <span class="fmt29">mRNP</span>. Because <span class="fmt29">mRNP</span> is highly </pre>
+<pre>dynamic, the <span class="fmt29">mRNP</span> binds to translation inhibitor can <span class="fmt29">reenter</span> the translation </pre>
+<pre>pool. Formation of a larger complex can make the ability to deliver the <span class="fmt29">mRNA</span> to </pre>
+<pre>the repressive <span class="fmt29">center</span> the rate-limiting step<span class="fmt18">\citep</span>{<span class="fmt36">cp04</span>}. <span class="fmt18">\\</span>According to the </pre>
+<pre>model made by Franks and co-workers <span class="fmt18">\citep</span>{<span class="fmt36">fl08</span>}, the P-body formation is via the </pre>
+<pre><span class="fmt29">homomeric</span> interaction in <span class="fmt29">prion</span>-like domain of <span class="fmt29">Lsm4p</span> and <span class="fmt29">Yjef</span>-N domain of <span class="fmt29">Edc3p</span>. </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">Cross-talk</span><span class="fmt38"> </span><span class="fmt38">between</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">RNA</span></span><span class="fmt38"> </span><span class="fmt38">decay</span><span class="fmt38"> </span><span class="fmt38">and</span><span class="fmt38"> </span><span class="fmt38">transcription</span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{The role of <span class="fmt29">Rpb4</span>/7 in <span class="fmt29">mRNA</span> decay and translation} Recent experiments </pre>
+<pre>show that the <span class="fmt29">nonstoichiometric</span> subunit <span class="fmt29">Rpb4</span>/7 bind to subunits of translation </pre>
+<pre>elongation factors, and thus affect the <span class="fmt29">RNA</span> stability by regulation translation </pre>
+<pre>initiation<span class="fmt18">\citep</span>{<span class="fmt36">Harel-Sharvit2010</span>}. The results by studying the mutant </pre>
+<pre><span class="fmt29">Rpb6</span><span class="fmt18">\textsuperscript</span>{Q100R} which is reported to show poorly binding of <span class="fmt29">Rpb4</span>/7 </pre>
+<pre>to <span class="fmt29">PolII</span>, show that the recruitment of <span class="fmt29">Rpb4</span>/7 to polymerase is crucial in the </pre>
+<pre>regulation of translation. By studying the mutants altering the <span class="fmt29">Rpb4</span>/7 nuclear </pre>
+<pre>localization show that the shuttling of <span class="fmt29">Rpb4</span>/7 is necessity for the regulatory </pre>
+<pre>function of <span class="fmt29">Rpb4</span>/7 in translation. </pre>
+<pre><span class="fmt19">\section</span>{<span class="fmt38">Regulation</span><span class="fmt38"> </span><span class="fmt38">of</span><span class="fmt38"> </span><span class="fmt38">the</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">RNA</span></span><span class="fmt38"> </span><span class="fmt38">stability</span><span class="fmt38"> </span><span class="fmt38">by</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">RNA</span></span><span class="fmt38"> </span><span class="fmt38">binding</span><span class="fmt38"> </span><span class="fmt38">proteins</span>} </pre>
+<pre><span class="fmt19">\section</span>{<span class="fmt38">Concerning</span><span class="fmt38"> </span><span class="fmt38">the</span><span class="fmt38"> </span><span class="fmt38">method</span>} </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">Normalization</span><span class="fmt38"> </span><span class="fmt38">with</span><span class="fmt38"> </span><span class="fmt38">internal</span><span class="fmt38"> </span><span class="fmt38">or</span><span class="fmt38"> </span><span class="fmt38">external</span><span class="fmt38"> </span><span class="fmt38">standard</span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{Normalization with external standard} The idea of using external </pre>
+<pre>standard to monitor the global change of <span class="fmt29">mRNA</span> level was first brought out by </pre>
+<pre><span class="fmt29">Holstege</span> and co-workers in the genome-wide study of artificial inactivation of </pre>
+<pre><span class="fmt29">RNA</span> polymerase II <span class="fmt18">\citep</span>{<span class="fmt36">hjw+98</span>}. The method was described in detail in another </pre>
+<pre>paper <span class="fmt18">\citep</span>{<span class="fmt36">Peppel2003</span>}. In this method, equal amount of external transcribed </pre>
+<pre><span class="fmt29">mRNAs</span> are spiked into equal amount of total <span class="fmt29">RNA</span> (Figure <span class="fmt18">\ref</span>{<span class="fmt33">normalization</span>}). </pre>
+<pre>The cell number are counted, and the yield of total <span class="fmt29">RNA</span> is calculated respected </pre>
+<pre>to the cell number. Similar normalization method are also used in the study of </pre>
+<pre><span class="fmt29">RNA</span> decay <span class="fmt18">\citep</span>{<span class="fmt36">wls+02</span>}. <span class="fmt19">\begin{</span><span class="fmt19"><span class="fmt32">figure</span></span><span class="fmt19">}</span>[h] <span class="fmt18">\centering</span> </pre>
+<pre><span class="fmt18">\includegraphics</span>[scale=0.5]{Jeroen_2003_<span class="fmt29">fig1</span>.<span class="fmt29">jpg</span>} </pre>
+<pre>				<span class="fmt18">\caption</span>{Normalization using external standard.<span class="fmt18">\citep</span>{<span class="fmt36">Peppel2003</span>}} </pre>
+<pre>				<span class="fmt18">\label</span>{<span class="fmt33">normalization</span>} </pre>
+<pre>			<span class="fmt19">\end{</span><span class="fmt19"><span class="fmt32">figure</span></span><span class="fmt19">}</span> </pre>
+<pre> </pre>
+<pre><span class="fmt18">\appendix</span> </pre>
+<pre><span class="fmt19">\section</span>{<span class="fmt38">Strains</span><span class="fmt38"> </span><span class="fmt38">to</span><span class="fmt38"> </span><span class="fmt38">be</span><span class="fmt38"> </span><span class="fmt38">made</span><span class="fmt38"> </span><span class="fmt38">use</span><span class="fmt38"> </span><span class="fmt38">Auxin-</span><span class="fmt38"><span class="fmt29">Degron</span></span><span class="fmt38"> </span><span class="fmt38">system</span>} </pre>
+<pre><span class="fmt19">\paragraph</span>{Positive control of this method} Because I modified the system the </pre>
+<pre>author used in the published work <span class="fmt18">\citep</span>{<span class="fmt36">nft+09</span>}, the modified system must be </pre>
+<pre>verified. In order to reproduce the effect that the author reported, <span class="fmt29">IAA17</span>-tag </pre>
+<pre>is made fusion to the gene <span class="fmt29">Mcm4p</span> ({<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YPR019w</span>}, which is the </pre>
+<pre>essential <span class="fmt29">helicase</span> component of <span class="fmt29">heterohexameric</span> <span class="fmt29">MCM2</span>-7 complexes which bind </pre>
+<pre>pre-replication complexes on DNA and melt the DNA prior to replication; </pre>
+<pre>accumulates in the nucleus in G1; <span class="fmt29">homolog</span> of S. <span class="fmt29">pombe</span> <span class="fmt29">Cdc21p</span>. <span class="fmt19">\subsection</span>{The </pre>
+<pre>genes which are essential} <span class="fmt29">Pab1</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) Poly(A) binding </pre>
+<pre>protein, part of the 3'-end <span class="fmt29">RNA</span>-processing complex, mediates interactions </pre>
+<pre>between the 5' cap structure and the 3' <span class="fmt29">mRNA</span> poly(A) tail, involved in control </pre>
+<pre>of poly(A) tail length, interacts with translation factor <span class="fmt29">eIF</span>-4G </pre>
+<pre><span class="fmt19">\section</span>{<span class="fmt38">Strains</span><span class="fmt38"> </span><span class="fmt38">got</span><span class="fmt38"> </span><span class="fmt38">directly</span><span class="fmt38"> </span><span class="fmt38">from</span><span class="fmt38"> </span><span class="fmt38">the</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">YKO</span></span><span class="fmt38"> </span><span class="fmt38">collection</span>} </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">Deadenylation</span></span><span class="fmt18"><span class="fmt38">\citep</span></span><span class="fmt38">{</span><span class="fmt38"><span class="fmt36">mtw04</span></span><span class="fmt38">}</span>} </pre>
+<pre><span class="fmt19">\subsubsection</span>{<span class="fmt38"><span class="fmt29">Ccr4p</span></span><span class="fmt38">/</span><span class="fmt38"><span class="fmt29">Pop2p</span></span><span class="fmt38">/</span><span class="fmt38"><span class="fmt29">Notp</span></span><span class="fmt38"> </span><span class="fmt38">complex</span>} <span class="fmt29">Pop2</span>/<span class="fmt29">Caf1</span> ({<span class="fmt18">\color</span>{red}viable}) </pre>
+<pre>{<span class="fmt18">\color</span>{RoyalPurple}{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YNR052c</span>}} <span class="fmt29">RNase</span> of the <span class="fmt29">DEDD</span> <span class="fmt29">superfamily</span>, </pre>
+<pre>subunit of the <span class="fmt29">Ccr4</span>-Not complex that mediates 3' to 5' <span class="fmt29">mRNA</span> </pre>
+<pre><span class="fmt29">deadenylation</span>(<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 7123) <span class="fmt18">\\</span><span class="fmt29">Ccr4</span> </pre>
+<pre>({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YAL021c</span>}} </pre>
+<pre>Component of the <span class="fmt29">CCR4</span>-NOT transcriptional complex, which is involved in </pre>
+<pre>regulation of gene expression; component of the major cytoplasmic <span class="fmt29">deadenylase</span>, </pre>
+<pre>which is involved in <span class="fmt29">mRNA</span> poly(A) tail shortening(<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection </pre>
+<pre>No.: 387) {<span class="fmt18">\color</span>{red}the strain was wrong, generated by us} <span class="fmt18">\\</span><span class="fmt29">Caf40</span> </pre>
+<pre>({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YNL288w</span>}} </pre>
+<pre>Evolutionarily conserved subunit of the <span class="fmt29">CCR4</span>-NOT complex involved in controlling </pre>
+<pre><span class="fmt29">mRNA</span> initiation, elongation and degradation; binds <span class="fmt29">Cdc39p</span>(<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> </pre>
+<pre>collection No.: 1156) </pre>
+<pre><span class="fmt19">\section</span>{<span class="fmt38">The</span><span class="fmt38"> </span><span class="fmt38">complete</span><span class="fmt38"> </span><span class="fmt38">list</span><span class="fmt38"> </span><span class="fmt38">of</span><span class="fmt38"> </span><span class="fmt38">the</span><span class="fmt38"> </span><span class="fmt38">genes</span><span class="fmt38"> </span><span class="fmt38">involved</span><span class="fmt38"> </span><span class="fmt38">in</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">RNA</span></span><span class="fmt38"> </span><span class="fmt38">turnover</span>} </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">Deadenylation</span></span><span class="fmt18"><span class="fmt38">\citep</span></span><span class="fmt38">{</span><span class="fmt38"><span class="fmt36">mtw04</span></span><span class="fmt38">}</span>} </pre>
+<pre><span class="fmt19">\subsubsection</span>{<span class="fmt38"><span class="fmt29">Ccr4p</span></span><span class="fmt38">/</span><span class="fmt38"><span class="fmt29">Pop2p</span></span><span class="fmt38">/</span><span class="fmt38"><span class="fmt29">Notp</span></span><span class="fmt38"> </span><span class="fmt38">complex</span>} <span class="fmt29">Pop2</span>/<span class="fmt29">Caf1</span> ({<span class="fmt18">\color</span>{red}viable}) </pre>
+<pre>{<span class="fmt18">\color</span>{RoyalPurple}{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YNR052c</span>}} <span class="fmt29">RNase</span> of the <span class="fmt29">DEDD</span> <span class="fmt29">superfamily</span>, </pre>
+<pre>subunit of the <span class="fmt29">Ccr4</span>-Not complex that mediates 3' to 5' <span class="fmt29">mRNA</span> </pre>
+<pre><span class="fmt29">deadenylation</span>(<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 7123) <span class="fmt18">\\</span><span class="fmt29">Ccr4</span> </pre>
+<pre>({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YAL021c</span>}} </pre>
+<pre>Component of the <span class="fmt29">CCR4</span>-NOT transcriptional complex, which is involved in </pre>
+<pre>regulation of gene expression; component of the major cytoplasmic <span class="fmt29">deadenylase</span>, </pre>
+<pre>which is involved in <span class="fmt29">mRNA</span> poly(A) tail shortening(<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection </pre>
+<pre>No.: 387) <span class="fmt18">\\</span><span class="fmt29">Caf40</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YNL288w</span>} </pre>
+<pre>Evolutionarily conserved subunit of the <span class="fmt29">CCR4</span>-NOT complex involved in controlling </pre>
+<pre><span class="fmt29">mRNA</span> initiation, elongation and degradation; binds <span class="fmt29">Cdc39p</span>(<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> </pre>
+<pre>collection No.: 1156) <span class="fmt18">\\</span><span class="fmt29">Caf130</span> ({<span class="fmt18">\color</span>{red}viable}) Part of the </pre>
+<pre>evolutionarily-conserved <span class="fmt29">CCR4</span>-NOT transcriptional regulatory complex involved in </pre>
+<pre>controlling <span class="fmt29">mRNA</span> initiation, elongation, and degradation <span class="fmt18">\\</span><span class="fmt29">Caf120</span> </pre>
+<pre>({<span class="fmt18">\color</span>{red}viable}) Part of the evolutionarily-conserved <span class="fmt29">CCR4</span>-NOT </pre>
+<pre>transcriptional regulatory complex involved in controlling <span class="fmt29">mRNA</span> initiation, </pre>
+<pre>elongation, and degradation <span class="fmt18">\\</span><span class="fmt29">Caf16</span> ({<span class="fmt18">\color</span>{red}viable}) Part of </pre>
+<pre>evolutionarily-conserved <span class="fmt29">CCR4</span>-NOT regulatory complex; contains single <span class="fmt29">ABC</span>-type </pre>
+<pre><span class="fmt29">ATPase</span> domain but no <span class="fmt29">transmembrane</span> domain; interacts with several subunits of </pre>
+<pre>Mediator <span class="fmt19">\subsubsection</span>{<span class="fmt38">Not</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">multisubunit</span></span><span class="fmt38"> </span><span class="fmt38">complex</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">Not1</span></span><span class="fmt38">-</span><span class="fmt38"><span class="fmt29">Not5</span></span>} <span class="fmt29">Not1</span>(<span class="fmt29">Cdc39</span>) </pre>
+<pre>({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) Component of the <span class="fmt29">CCR4</span>-NOT complex, which has multiple </pre>
+<pre>roles in regulating <span class="fmt29">mRNA</span> levels including regulation of transcription and </pre>
+<pre>destabilizing <span class="fmt29">mRNAs</span> by <span class="fmt29">deadenylation</span>; basal transcription factor <span class="fmt18">\\</span><span class="fmt29">Not2</span>(<span class="fmt29">Cdc36</span>) </pre>
+<pre>({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) same as above <span class="fmt18">\\</span><span class="fmt29">Not3</span>({<span class="fmt18">\color</span>{red}viable}) </pre>
+<pre>{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YIL038c</span>} Subunit of the <span class="fmt29">CCR4</span>-NOT complex, which is a global </pre>
+<pre>transcriptional regulator with roles in transcription initiation and elongation </pre>
+<pre>and in <span class="fmt29">mRNA</span> degradation  (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 1431) <span class="fmt18">\\</span><span class="fmt29">Not4</span>(<span class="fmt29">Mot2</span>) </pre>
+<pre>({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YER068w</span>} Subunit of the <span class="fmt29">CCR4</span>-NOT </pre>
+<pre>complex, which has roles in transcription regulation, <span class="fmt29">mRNA</span> degradation, and </pre>
+<pre>post-transcriptional modifications; with <span class="fmt29">Ubc4p</span>, <span class="fmt29">ubiquitinates</span> nascent </pre>
+<pre>polypeptide-associated complex subunits and <span class="fmt29">histone</span> <span class="fmt29">demethyase</span> <span class="fmt29">Jhd2p</span> </pre>
+<pre>(<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 207) <span class="fmt18">\\</span><span class="fmt29">Not5</span> ({<span class="fmt18">\color</span>{red}viable}) </pre>
+<pre>{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YPR072w</span>} Subunit of the <span class="fmt29">CCR4</span>-NOT complex, which is a global </pre>
+<pre>transcriptional regulator with roles in transcription initiation and elongation </pre>
+<pre>and in <span class="fmt29">mRNA</span> degradation (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 5491) </pre>
+<pre><span class="fmt18">\vspace</span>{6pt} </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Pan2</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple} <span class="fmt29">YGL094c</span>} Poly(A) <span class="fmt29">ribonuclease</span>, </pre>
+<pre>member of the <span class="fmt29">PAN2p</span>-<span class="fmt29">PAN3p</span> complex <span class="fmt18">\\</span><span class="fmt29">Pan3</span> ({<span class="fmt18">\color</span>{red}viable}) </pre>
+<pre>{<span class="fmt18">\color</span>{RoyalPurple} <span class="fmt29">YKL025c</span>} same as above <span class="fmt18">\\</span><span class="fmt29">Pab1</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) </pre>
+<pre>Poly(A) binding protein, part of the 3'-end <span class="fmt29">RNA</span>-processing complex, mediates </pre>
+<pre>interactions between the 5' cap structure and the 3' <span class="fmt29">mRNA</span> poly(A) tail, involved </pre>
+<pre>in control of poly(A) tail length, interacts with translation factor <span class="fmt29">eIF</span>-4G </pre>
+<pre><span class="fmt18">\vspace</span>{6pt} </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Ngl1</span>-3 ({<span class="fmt18">\color</span>{red}viable}) similar to <span class="fmt29">Ccr4</span> </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">Decapping</span></span>} </pre>
+<pre><span class="fmt29">Dcp1</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}/{<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YOL149w</span>} </pre>
+<pre>Subunit of the <span class="fmt29">Dcp1p</span>-<span class="fmt29">Dcp2p</span> <span class="fmt29">decapping</span> enzyme complex, which removes the 5' cap </pre>
+<pre>structure from <span class="fmt29">mRNAs</span> prior to their degradation; enhances the activity of </pre>
+<pre>catalytic subunit <span class="fmt29">Dcp2p</span>; regulated by DEAD box protein <span class="fmt29">Dhh1p</span>. </pre>
+<pre>Ts-mutant<span class="fmt18">\citep</span>{<span class="fmt36">dtp01</span>} (<span class="fmt29">dcp1</span>-2: <span class="fmt29">R29A</span>, <span class="fmt29">D31A</span>), </pre>
+<pre>{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YOL149w</span>}::<span class="fmt29">kanMX4</span>/{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YOL149w</span>} strain: <span class="fmt29">Y26658</span> </pre>
+<pre>on <span class="fmt29">Euroscarf</span> <span class="fmt18">\\</span><span class="fmt29">Dcp2</span> (<span class="fmt29">inviable</span>/viable) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YNL118c</span>} Catalytic </pre>
+<pre>subunit of the <span class="fmt29">Dcp1p</span>-<span class="fmt29">Dcp2p</span> <span class="fmt29">decapping</span> enzyme complex, which removes the 5' cap </pre>
+<pre>structure from <span class="fmt29">mRNAs</span> prior to their degradation; member of the <span class="fmt29">Nudix</span> <span class="fmt29">hydrolase</span> </pre>
+<pre>family Ts-mutant<span class="fmt18">\citep</span>{<span class="fmt36">dtp01</span>} (<span class="fmt29">dcp2</span>-7: <span class="fmt29">N60D</span>, <span class="fmt29">I68V</span>, <span class="fmt29">D142V</span>), </pre>
+<pre>{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YNL118c</span>}::<span class="fmt29">kanMX4</span>/{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YNL118c</span>} strain :<span class="fmt29">Y22958</span> </pre>
+<pre>on <span class="fmt29">Euroscarf</span> <span class="fmt18">\\</span><span class="fmt29">Dcs1</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YLR270w</span>} </pre>
+<pre>Non-essential <span class="fmt29">hydrolase</span> involved in <span class="fmt29">mRNA</span> <span class="fmt29">decapping</span>, may function in a feedback </pre>
+<pre>mechanism to regulate <span class="fmt29">deadenylation</span>, contains <span class="fmt29">pyrophosphatase</span> activity and a HIT </pre>
+<pre>(<span class="fmt29">histidine</span> triad) motif; interacts with neutral <span class="fmt29">trehalase</span> <span class="fmt29">Nth1p</span> (<span class="fmt29">OpenBiosystem</span> </pre>
+<pre><span class="fmt29">YKO</span> collection No.: 5179) </pre>
+<pre><span class="fmt18">\vspace</span>{6pt} </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Edc1</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YGL222c</span>} <span class="fmt29">RNA</span>-binding protein, </pre>
+<pre>activates <span class="fmt29">mRNA</span> <span class="fmt29">decapping</span> directly by binding to the <span class="fmt29">mRNA</span> substrate and enhancing </pre>
+<pre>the activity of the <span class="fmt29">decapping</span> proteins <span class="fmt29">Dcp1p</span> and <span class="fmt29">Dcp2p</span>; has a role in </pre>
+<pre>translation during heat stress (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 4588) <span class="fmt18">\\</span><span class="fmt29">Edc2</span> </pre>
+<pre>({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YER035w</span>} same as above (<span class="fmt29">OpenBiosystem</span> </pre>
+<pre><span class="fmt29">YKO</span> collection No.: 167) <span class="fmt18">\\</span><span class="fmt29">Edc3</span> ({<span class="fmt18">\color</span>{red}viable}) </pre>
+<pre>{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YEL015w</span>} Non-essential conserved protein of unknown </pre>
+<pre>function, plays a role in <span class="fmt29">mRNA</span> <span class="fmt29">decapping</span> by specifically affecting the function </pre>
+<pre>of the <span class="fmt29">decapping</span> enzyme <span class="fmt29">Dcp1p</span>; localizes to cytoplasmic <span class="fmt29">mRNA</span> processing bodies </pre>
+<pre>(<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 255) </pre>
+<pre><span class="fmt18">\vspace</span>{6pt} </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Pat1</span> ({<span class="fmt18">\color</span>{red}viable}) <span class="fmt29">Topoisomerase</span> II-associated <span class="fmt29">deadenylation</span>-dependent </pre>
+<pre><span class="fmt29">RNA</span>-<span class="fmt29">decapping</span> factor <span class="fmt18">\\</span><span class="fmt29">Dhh1</span> ({<span class="fmt18">\color</span>{red}viable}) Cytoplasmic <span class="fmt29">DExD</span>/H-box </pre>
+<pre><span class="fmt29">helicase</span>, stimulates <span class="fmt29">mRNA</span> <span class="fmt29">decapping</span> </pre>
+<pre> </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">5'</span><span class="fmt25"><span class="fmt38">$</span></span><span class="fmt20"><span class="fmt38">\rightarrow</span></span><span class="fmt25"><span class="fmt38"> </span></span><span class="fmt25"><span class="fmt38">$</span></span><span class="fmt38">3'</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">exonuclease</span></span>} </pre>
+<pre><span class="fmt29">Xrn1</span> ({<span class="fmt18">\color</span>{red}viable}) 5'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25"> </span><span class="fmt25">$</span>3' <span class="fmt29">exonuclease</span> component of cytoplasmic processing (P) bodies involved in <span class="fmt29">mRNA</span> decay </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Rat1</span>(<span class="fmt29">Xrn2</span>) ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) 5'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25"> </span><span class="fmt25">$</span>3' <span class="fmt29">exonuclease</span> involved in <span class="fmt29">RNA</span> metabolism, including <span class="fmt29">rRNA</span> and <span class="fmt29">snRNA</span> processing as well as <span class="fmt29">mRNA</span> transcription termination </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Rtt103</span> ({<span class="fmt18">\color</span>{red}viable}) interacts with <span class="fmt29">exonuclease</span> <span class="fmt29">Rat1p</span> and <span class="fmt29">Rai1p</span> and plays a role in transcription termination by <span class="fmt29">RNA</span> polymerase II, has an <span class="fmt29">RPR</span> domain (<span class="fmt29">carboxy</span>-terminal domain interacting domain) </pre>
+<pre> </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">TRAMP</span><span class="fmt38"> </span><span class="fmt38">complex</span><span class="fmt38"> </span><span class="fmt38">(</span><span class="fmt38"><span class="fmt29">polyadenylation</span></span><span class="fmt38"> </span><span class="fmt38">complex,</span><span class="fmt38"> </span><span class="fmt38">involved</span><span class="fmt38"> </span><span class="fmt38">in</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">RNA</span></span><span class="fmt38"> </span><span class="fmt38">surveillance)</span>} </pre>
+<pre>		<span class="fmt19">\subsubsection</span>{<span class="fmt38"><span class="fmt29">TRAMP4</span></span><span class="fmt38">-</span><span class="fmt38"><span class="fmt29">Trf4</span></span><span class="fmt38">/</span><span class="fmt38"><span class="fmt29">Air2</span></span><span class="fmt38">/</span><span class="fmt38"><span class="fmt29">Mtr4</span></span>} </pre>
+<pre><span class="fmt29">Trf4</span> ({<span class="fmt18">\color</span>{red}viable}) Non-canonical poly(A) polymerase, <span class="fmt29">catalyzes</span> <span class="fmt29">polyadenylation</span> of unmodified <span class="fmt29">tRNAs</span>, and <span class="fmt29">snoRNA</span> and <span class="fmt29">rRNA</span> precursors </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Air2</span> ({<span class="fmt18">\color</span>{red}viable}) stimulates the poly(A) polymerase activity of <span class="fmt29">Pap2p</span>(<span class="fmt29">Trf4</span>) in vitro </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Mtr4</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) <span class="fmt29">ATP</span>-dependent 3'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span>5' <span class="fmt29">RNA</span> <span class="fmt29">helicase</span> </pre>
+<pre>		<span class="fmt19">\subsubsection</span>{<span class="fmt38"><span class="fmt29">TRAMP5</span></span><span class="fmt38">-</span><span class="fmt38"><span class="fmt29">Trf5</span></span><span class="fmt38">/</span><span class="fmt38"><span class="fmt29">Air1</span></span><span class="fmt38">/</span><span class="fmt38"><span class="fmt29">Mtr4</span></span>} </pre>
+<pre><span class="fmt29">Trf5</span> ({<span class="fmt18">\color</span>{red}viable}) Non-canonical poly(A) polymerase </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Air1</span> ({<span class="fmt18">\color</span>{red}viable}) stimulates the poly(A) polymerase activity of <span class="fmt29">Pap2p</span>(<span class="fmt29">Trf4</span>) in vitro </pre>
+<pre> </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38">Canonical</span><span class="fmt38"> </span><span class="fmt38">poly(A)</span><span class="fmt38"> </span><span class="fmt38">polymerase</span>} </pre>
+<pre><span class="fmt29">PAP1</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) Poly(A) polymerase, one of three factors required for <span class="fmt29">mRNA</span> 3'-end <span class="fmt29">polyadenylation</span>, forms <span class="fmt29">multiprotein</span> complex with <span class="fmt29">polyadenylation</span> factor I (PF I), also required for <span class="fmt29">mRNA</span> nuclear export; may also <span class="fmt29">polyadenylate</span> <span class="fmt29">rRNAs</span> </pre>
+<pre> </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">Exosome</span></span><span class="fmt38"> </span><span class="fmt38">and</span><span class="fmt38"> </span><span class="fmt38">its</span><span class="fmt38"> </span><span class="fmt38">related</span><span class="fmt38"> </span><span class="fmt38">proteins</span>} </pre>
+<pre>		<span class="fmt19">\subsubsection</span>{<span class="fmt38"><span class="fmt29">Exosome</span></span><span class="fmt38"> </span><span class="fmt38">core</span>} </pre>
+<pre><span class="fmt29">Rrp44</span>(<span class="fmt29">Dis3</span>) ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YOL021c</span>} The only catalytic subunit in <span class="fmt29">exosome</span> core complex; possesses both <span class="fmt29">endonuclease</span> (by PIN domain) and 3'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span>5' <span class="fmt29">exonuclease</span> activity (by <span class="fmt29">RNB</span> domain)<span class="fmt18">\citep</span>{<span class="fmt36">ltd+08</span>}; involved in 3'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span>5' <span class="fmt29">RNA</span> processing and degradation in both the nucleus and the cytoplasm. Ts-mutant<span class="fmt18">\citep</span>{<span class="fmt36">bck+08</span>}. <span class="fmt29">Knockout</span> strain: {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YOL021c</span>}::<span class="fmt29">KanMX4</span>/{<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YOL021c</span>} strain: <span class="fmt29">Y21712</span> on <span class="fmt29">Euroscarf</span>. </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Csl4</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) non-catalytic core subunit of <span class="fmt29">exosome</span>. Ts-mutant<span class="fmt18">\citep</span>{<span class="fmt36">bck+08</span>} </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Rrp4</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) same as above </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Rrp40</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) same as above, predicted to contain S1 and KH <span class="fmt29">RNA</span> binding domain </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Rrp41</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) non-catalytic core subunit of <span class="fmt29">exosome</span> ts-mutant<span class="fmt18">\citep</span>{<span class="fmt36">bck+08</span>} </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Rrp42</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) same as above ts-mutant<span class="fmt18">\citep</span>{<span class="fmt36">bck+08</span>} </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Rrp43</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) same as above </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Rrp45</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) same as above ts-mutant<span class="fmt18">\citep</span>{<span class="fmt36">bck+08</span>} </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Rrp46</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) same as above </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Mtr3</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) same as above </pre>
+<pre>		<span class="fmt19">\subsubsection</span>{<span class="fmt38"><span class="fmt29">Exosome</span></span><span class="fmt38"> </span><span class="fmt38">associated</span><span class="fmt38"> </span><span class="fmt38">proteins</span>} </pre>
+<pre><span class="fmt29">Rrp6</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YOR001w</span>}  Nuclear-specific <span class="fmt29">exosome</span> cofactor </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Rrp47</span>(<span class="fmt29">Lrp1</span>) ({<span class="fmt18">\color</span>{red}viable}) Nuclear <span class="fmt29">exosome</span>-associated nucleic acid binding protein; involved in <span class="fmt29">RNA</span> processing, surveillance, degradation, tethering, and export; <span class="fmt29">homolog</span> of mammalian nuclear matrix protein <span class="fmt29">C1D</span> involved in regulation of DNA repair and recombination </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Mpp6</span> ({<span class="fmt18">\color</span>{red}viable}) Nuclear <span class="fmt29">exosome</span>-associated <span class="fmt29">RNA</span> binding protein; involved in surveillance of pre-<span class="fmt29">rRNAs</span> and pre-<span class="fmt29">mRNAs</span>, and the degradation of cryptic non-coding <span class="fmt29">RNAs</span> (<span class="fmt29">ncRNA</span>); <span class="fmt29">copurifies</span> with <span class="fmt29">ribosomes</span> </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Ski7</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YOR076c</span>} Coupling protein that mediates interactions between the Ski complex and the cytoplasmic <span class="fmt29">exosome</span> during 3'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span>5' <span class="fmt29">RNA</span> degradation </pre>
+<pre> </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">RNA</span></span><span class="fmt38"> </span><span class="fmt38">chaperones</span><span class="fmt38"> </span><span class="fmt38">(</span><span class="fmt38"><span class="fmt29">Lsm</span></span><span class="fmt38"> </span><span class="fmt38">1-7</span><span class="fmt38"> </span><span class="fmt38">and</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt29">Lsm</span></span><span class="fmt38"> </span><span class="fmt38">2-8)</span>} </pre>
+<pre><span class="fmt29">Lsm</span> 2-5, 8 ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) <span class="fmt29">Lsm2</span> ts-mutant<span class="fmt18">\citep</span>{<span class="fmt36">bck+08</span>} </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Lsm</span> 1, 6-7({<span class="fmt18">\color</span>{red}viable}) </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Scd6</span>/<span class="fmt29">Lsm13</span>({<span class="fmt18">\color</span>{red}viable}) Protein containing an <span class="fmt29">Lsm</span> domain; negatively regulates translation initiation via <span class="fmt29">48S</span> <span class="fmt29">preinitiation</span> complex assembly; may bind <span class="fmt29">RNA</span> and have a role in <span class="fmt29">RNA</span> processing; overproduction suppresses null mutation in <span class="fmt29">clathrin</span> heavy chain gene <span class="fmt29">CHC1</span> </pre>
+<pre> </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">Helicase</span></span>} </pre>
+<pre>		<span class="fmt19">\subsubsection</span>{<span class="fmt38">Ski</span><span class="fmt38"> </span><span class="fmt38">complex</span>} </pre>
+<pre><span class="fmt29">Ski2</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YLR398c</span>} Ski complex component and putative <span class="fmt29">RNA</span> <span class="fmt29">helicase</span>, mediates 3'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span>5' <span class="fmt29">RNA</span> degradation by the cytoplasmic <span class="fmt29">exosome</span>; null mutants have <span class="fmt29">superkiller</span> phenotype of increased viral <span class="fmt29">dsRNAs</span> and are synthetic lethal with mutations in 5'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span>3' <span class="fmt29">mRNA</span> decay </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Ski3</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YPR189w</span>} Ski complex component and <span class="fmt29">TPR</span> protein, mediates 3'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span>5' <span class="fmt29">RNA</span> degradation by the cytoplasmic <span class="fmt29">exosome</span>; null mutants have <span class="fmt29">superkiller</span> phenotype of increased viral <span class="fmt29">dsRNAs</span> and are synthetic lethal with mutations in 5'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span>3' <span class="fmt29">mRNA</span> decay </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Ski8</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YGL213c</span>} Ski complex component and WD-repeat protein, mediates 3'<span class="fmt25">$</span><span class="fmt20">\rightarrow</span><span class="fmt25">$</span>5' <span class="fmt29">RNA</span> degradation by the cytoplasmic <span class="fmt29">exosome</span>; also required for meiotic double-strand break recombination; null mutants have <span class="fmt29">superkiller</span> phenotype </pre>
+<pre>		<span class="fmt19">\subsubsection</span>{<span class="fmt38"><span class="fmt29">Sen1</span></span><span class="fmt38">-</span><span class="fmt38"><span class="fmt29">Nrd1</span></span><span class="fmt38">-</span><span class="fmt38"><span class="fmt29">Nab3</span></span><span class="fmt38"> </span><span class="fmt38">complex</span>} </pre>
+<pre><span class="fmt29">Sen1</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) Presumed <span class="fmt29">helicase</span> required for <span class="fmt29">RNA</span> polymerase II transcription termination and processing of <span class="fmt29">RNAs</span>; <span class="fmt29">homolog</span> of <span class="fmt29">Senataxin</span> which causes Ataxia-<span class="fmt29">Oculomotor</span> <span class="fmt29">Apraxia</span> 2 and a dominant form of <span class="fmt29">amyotrophic</span> lateral sclerosis </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Nrd1</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) <span class="fmt29">RNA</span>-binding protein that interacts with the C-terminal domain of the <span class="fmt29">RNA</span> polymerase II large subunit (<span class="fmt29">Rpo21p</span>), preferentially at <span class="fmt29">phosphorylated</span> <span class="fmt29">Ser5</span>; required for transcription termination and 3' end maturation of <span class="fmt29">nonpolyadenylated</span> <span class="fmt29">RNAs</span> </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">Nab3</span> ({<span class="fmt18">\color</span>{blue}<span class="fmt29">inviable</span>}) Single stranded <span class="fmt29">RNA</span> binding protein; acidic <span class="fmt29">ribonucleoprotein</span>; required for termination of non-poly(A) transcripts and efficient splicing; interacts with <span class="fmt29">Nrd1p</span> </pre>
+<pre> </pre>
+<pre>	<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">RNA</span></span><span class="fmt38"> </span><span class="fmt38">binding</span><span class="fmt38"> </span><span class="fmt38">proteins</span>} </pre>
+<pre>		<span class="fmt19">\subsection</span>{<span class="fmt38"><span class="fmt29">PUF</span></span><span class="fmt38"> </span><span class="fmt38">family</span><span class="fmt18"><span class="fmt38">\citep</span></span><span class="fmt38">{</span><span class="fmt38"><span class="fmt36">ghb04</span></span><span class="fmt38">,</span><span class="fmt38"> </span><span class="fmt38"><span class="fmt36">wbk+02</span></span><span class="fmt38">}</span>} </pre>
+<pre><span class="fmt29">PUF1</span>/<span class="fmt29">JSN1</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YJR091c</span>} Member of the <span class="fmt29">Puf</span> family of <span class="fmt29">RNA</span>-binding proteins, interacts with <span class="fmt29">mRNAs</span> encoding membrane-associated proteins; involved in localizing the <span class="fmt29">Arp2</span>/3 complex to mitochondria; <span class="fmt29">overexpression</span> causes increased sensitivity to <span class="fmt29">benomyl</span>  (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 6903) </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">PUF2</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YPR042c</span>} Member of the <span class="fmt29">PUF</span> protein family, which is defined by the presence of <span class="fmt29">Pumilio</span> homology domains that confer <span class="fmt29">RNA</span> binding activity; preferentially binds <span class="fmt29">mRNAs</span> encoding membrane-associated proteins (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 5461) </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">PUF3</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YLL013c</span>} Protein of the mitochondrial outer surface, links the <span class="fmt29">Arp2</span>/3 complex with the <span class="fmt29">mitochore</span> during <span class="fmt29">anterograde</span> mitochondrial movement; also binds to and promotes degradation of <span class="fmt29">mRNAs</span> for select nuclear-encoded mitochondrial proteins (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 1501) </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">PUF4</span> (viable/<span class="fmt29">inviable</span> when <span class="fmt29">overexpressed</span>) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YGL014w</span>} Member of the <span class="fmt29">PUF</span> protein family, which is defined by the presence of <span class="fmt29">Pumilio</span> homology domains that confer <span class="fmt29">RNA</span> binding activity; preferentially binds <span class="fmt29">mRNAs</span> encoding <span class="fmt29">nucleolar</span> ribosomal <span class="fmt29">RNA</span>-processing factors (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 4382) </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">PUF5</span>/<span class="fmt29">MPT5</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YGL178w</span>} Member of the <span class="fmt29">Puf</span> family of <span class="fmt29">RNA</span>-binding proteins; binds to <span class="fmt29">mRNAs</span> encoding chromatin modifiers and spindle pole body components; involved in longevity, maintenance of cell wall integrity, and sensitivity to and recovery from pheromone arrest. <span class="fmt29">Multicopy</span> suppressor of Pop Two. (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 7554) </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">PUF6</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YDR496c</span>} <span class="fmt29">Pumilio</span>-homology domain protein that binds the 3' <span class="fmt29">UTR</span> of <span class="fmt29">ASH1</span> <span class="fmt29">mRNA</span> and represses its translation, resulting in proper asymmetric localization of <span class="fmt29">ASH1</span> <span class="fmt29">mRNA</span>; also co-sediments with the <span class="fmt29">60S</span> ribosomal subunit and is required for its <span class="fmt29">biogenesis</span> (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 4330) </pre>
+<pre><span class="fmt18">\vspace</span>{6pt} </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">PUB1</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YNL016w</span>} Poly(A)+ <span class="fmt29">RNA</span>-binding protein, abundant <span class="fmt29">mRNP</span>-component protein that binds <span class="fmt29">mRNA</span> and is required for stability of many <span class="fmt29">mRNAs</span>; component of glucose deprivation induced stress granules, involved in P-body-dependent granule assembly (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 5344) </pre>
+<pre><span class="fmt18">\\</span><span class="fmt29">TPA1</span> ({<span class="fmt18">\color</span>{red}viable}) {<span class="fmt18">\color</span>{RoyalPurple}<span class="fmt29">YER049w</span>} Poly(A)-binding protein involved in translation termination efficiency, <span class="fmt29">mRNA</span> poly(A) tail length and <span class="fmt29">mRNA</span> stability; interacts with <span class="fmt29">Sup45p</span> (<span class="fmt29">eRF1</span>), <span class="fmt29">Sup35p</span> (<span class="fmt29">eRF3</span>) and <span class="fmt29">Pab1p</span>; similar to <span class="fmt29">prolyl</span> 4-<span class="fmt29">hydroxylases</span>; binds Fe(III) and 2-<span class="fmt29">oxoglutarate</span> (<span class="fmt29">OpenBiosystem</span> <span class="fmt29">YKO</span> collection No.: 184) </pre>
+<pre> </pre>
+<pre> </pre>
+<pre><span class="fmt18">\bibliography</span>{Literature} </pre>
+<pre><span class="fmt19">\end{</span><span class="fmt19"><span class="fmt32">document</span></span><span class="fmt19">}</span> </pre>
+<pre> </pre></body></html>
