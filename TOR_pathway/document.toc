@@ -1,0 +1,14 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}History of the TOR pathway}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}}{3}{subsection.1.1}
+\contentsline {paragraph}{}{3}{section*.2}
+\contentsline {section}{\numberline {2}TOR signaling pathways}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Upstream regulators of TOR}{3}{subsection.2.1}
+\contentsline {paragraph}{Nitrogen}{3}{section*.3}
+\contentsline {subsection}{\numberline {2.2}Downstream effectors of TOR}{3}{subsection.2.2}
+\contentsline {section}{\numberline {3}Architecture of TOR complexes}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}The TOR complex 1 (TORC1)}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}The TOR complex 2 (TORC2)}{3}{subsection.3.2}
+\contentsline {section}{\numberline {4}TOR regulation in diseases and aging}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}TOR in cancer}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}TOR in Alzheimer's disease}{3}{subsection.4.2}
