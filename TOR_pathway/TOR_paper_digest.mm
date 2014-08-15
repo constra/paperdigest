@@ -1,12 +1,26 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1408024907568" ID="ID_1553494727" MODIFIED="1408025340799" TEXT="TOR paper digest">
-<node CREATED="1408024957200" ID="ID_408854319" MODIFIED="1408094800324" POSITION="right" TEXT="Metabolism and disease">
-<node CREATED="1408025418340" ID="ID_440840791" MODIFIED="1408094833202" TEXT="Laplante &amp; Sabatini, 2012, mTOR Signaling in Growth  Control and Disease">
+<node CREATED="1408024957200" ID="ID_408854319" MODIFIED="1408107172596" POSITION="right" TEXT="Disease">
+<node CREATED="1408025418340" ID="ID_440840791" MODIFIED="1408114185769" TEXT="Laplante &amp; Sabatini, 2012, mTOR Signaling in Growth  Control and Disease">
 <icon BUILTIN="idea"/>
+<icon BUILTIN="button_ok"/>
 </node>
+<node CREATED="1408107116420" ID="ID_703396320" MODIFIED="1408107188483" TEXT="Cancer">
+<node CREATED="1408107190768" ID="ID_462105667" MODIFIED="1408107347436" TEXT="Protein synthesis"/>
+<node CREATED="1408107365975" ID="ID_1771262000" MODIFIED="1408107397056" TEXT="de novo lipid synthesis">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1408026118361" FOLDED="true" ID="ID_615067695" MODIFIED="1408092517136" POSITION="left" TEXT="History">
+<node CREATED="1408107540231" ID="ID_1555352816" MODIFIED="1408107545170" TEXT="Autophagy"/>
+</node>
+<node CREATED="1408107878654" ID="ID_557595468" MODIFIED="1408107884262" TEXT="Drug target">
+<node CREATED="1408107884264" ID="ID_723605917" MODIFIED="1408107940695" TEXT="Wander, 2011, Next-generation mTOR inhibitors in clinical oncology: how pathway complexity informs therapeutic strategy"/>
+<node CREATED="1408108107219" ID="ID_1412458757" MODIFIED="1408108116654" TEXT="mTOR inhibitors"/>
+</node>
+<node CREATED="1408108976970" ID="ID_1259120945" MODIFIED="1408108981851" TEXT="Obesity"/>
+<node CREATED="1408109907130" ID="ID_1439149782" MODIFIED="1408109914375" TEXT="Neurodegeneration"/>
+</node>
+<node CREATED="1408026118361" ID="ID_615067695" MODIFIED="1408114091508" POSITION="left" TEXT="History">
 <node CREATED="1408026125716" ID="ID_809286609" MODIFIED="1408026176961" TEXT="Kunz, 1993, Target of rapamycin in yeast, TOR2, is an essential phosphatidylinositol kinase homolog required for G1 progression"/>
 <node CREATED="1408026199086" ID="ID_709148375" MODIFIED="1408026210927" TEXT="Cafferkey, 1993, Dominant missense mutations in a novel yeast protein related to mammalian phosphatidylinositol 3-kinase and VPS34 abrogate rapamycin cytotoxicity."/>
 <node CREATED="1408026345326" ID="ID_531446186" MODIFIED="1408026352281" TEXT="Brown, 1994, A mammalian protein targeted by G1-arresting rapamycin-receptor complex."/>
@@ -97,6 +111,11 @@
 <node CREATED="1408095928002" ID="ID_978632467" MODIFIED="1408095933756" TEXT="SGK1"/>
 <node CREATED="1408095934744" ID="ID_1210695627" MODIFIED="1408096336617" TEXT="PKC-&#x3b1;"/>
 </node>
+</node>
+<node CREATED="1408107157729" ID="ID_735868602" MODIFIED="1408107162068" POSITION="left" TEXT="Metabolism">
+<node CREATED="1408109242460" ID="ID_1996754984" MODIFIED="1408109251255" TEXT="Muscle mass"/>
+<node CREATED="1408109252324" ID="ID_1240320466" MODIFIED="1408109259526" TEXT="Oxidative metabolism"/>
+<node CREATED="1408109260236" ID="ID_1011453580" MODIFIED="1408109274502" TEXT="Glucose homeostasis"/>
 </node>
 </node>
 </map>
