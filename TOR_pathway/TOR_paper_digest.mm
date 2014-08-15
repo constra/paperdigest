@@ -6,14 +6,14 @@
 <icon BUILTIN="idea"/>
 </node>
 </node>
-<node CREATED="1408026118361" ID="ID_615067695" MODIFIED="1408101573547" POSITION="left" TEXT="History">
+<node CREATED="1408026118361" FOLDED="true" ID="ID_615067695" MODIFIED="1408092517136" POSITION="left" TEXT="History">
 <node CREATED="1408026125716" ID="ID_809286609" MODIFIED="1408026176961" TEXT="Kunz, 1993, Target of rapamycin in yeast, TOR2, is an essential phosphatidylinositol kinase homolog required for G1 progression"/>
 <node CREATED="1408026199086" ID="ID_709148375" MODIFIED="1408026210927" TEXT="Cafferkey, 1993, Dominant missense mutations in a novel yeast protein related to mammalian phosphatidylinositol 3-kinase and VPS34 abrogate rapamycin cytotoxicity."/>
 <node CREATED="1408026345326" ID="ID_531446186" MODIFIED="1408026352281" TEXT="Brown, 1994, A mammalian protein targeted by G1-arresting rapamycin-receptor complex."/>
 <node CREATED="1408026353198" ID="ID_1244339472" MODIFIED="1408026872256" TEXT="Sabatini, 1994, RAFT1: a mammalian protein that binds to FKBP12 in a rapamycin-dependent fashion and is homologous to yeast TORs"/>
 <node CREATED="1408026907698" ID="ID_1279481596" MODIFIED="1408026919325" TEXT="Sabers, 1995, Isolation of a protein target of the FKBP12-rapamycin complex in mammalian cells"/>
 </node>
-<node CREATED="1408027148272" FOLDED="true" ID="ID_132060930" MODIFIED="1408101581211" POSITION="right" TEXT="Structure">
+<node CREATED="1408027148272" FOLDED="true" ID="ID_132060930" MODIFIED="1408092511449" POSITION="right" TEXT="Structure">
 <node CREATED="1408027151497" ID="ID_1094006752" MODIFIED="1408027197040" TEXT="shared">
 <node CREATED="1408027154592" ID="ID_1155809635" MODIFIED="1408091369355" TEXT="mLST1">
 <node CREATED="1408027161632" ID="ID_483991749" MODIFIED="1408027244269" TEXT="Jacinto, 2004, Mammalian TOR complex 2 controls the actin cytoskeleton and is rapamycin insensitive"/>
